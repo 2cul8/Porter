@@ -118,7 +118,9 @@ namespace Resources
                     return string.Empty;
                 }
                 catch (Exception ex)
-                { return ex.Message; }
+                { 
+                    return ex.Message; 
+                }
             }
 
             return null;
@@ -232,19 +234,18 @@ namespace Resources
             xNodeRoot["remoting"].AppendChild(xNode);
 
             xDocSettings.AppendChild(xNodeRoot);
-
-            addHashKey();
-
+              
             saveSettings();
 
-            if (!checkSettingsIntegrity())
-                LogManager.WriteLog(LOG_NAME, "ERRORE! Salvataggio delle impostazioni non riuscita. Integrità compromessa.");
         } 
 
         private static void saveSettings()
         {
             addHashKey();
             xDocSettings.Save(SETTINGS_PATH);
+
+            if (!checkSettingsIntegrity())
+                LogManager.WriteLog(LOG_NAME, "ERRORE! Salvataggio delle impostazioni non riuscita. Integrità compromessa.");
         }
 
         public static object GetSetting(SettingOptions option)
@@ -370,9 +371,12 @@ namespace Resources
         {
             try
             {
-                int savedHash = int.Parse(xDocSettings["settings"]["data"].Attributes["check_key"].Value);
-
+                int savedHash = int.Parse(xDocSettings["settings"]["data"].Attributes["check_key"].Value); 
+                 
+                //Remove the data element.
                 xDocSettings["settings"].RemoveChild(xDocSettings["settings"]["data"]);
+
+                LogManager.WriteLog(LOG_NAME, xDocSettings.OuterXml);
 
                 int calculatedHash = xDocSettings.OuterXml.GetHashCode();
 
@@ -382,6 +386,7 @@ namespace Resources
             {
                 LogManager.WriteLog(LOG_NAME, ex.Message);
                 LogManager.WriteLog(LOG_NAME, ex.StackTrace);
+                LogManager.WriteLog(LOG_NAME, ex.GetType().FullName);
                 return false;
             }
         }
