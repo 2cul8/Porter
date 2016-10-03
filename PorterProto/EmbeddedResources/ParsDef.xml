@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PARS_DEF NumAssi="4" ParAsseCount="20" ParMaccCount="20" ParTimerCount="6" ParContCount="6" ParMonosCount="6">
+  <PAR_LIST Tipo="1" Id="0" Name ="ASSE 1">
+    <PAR Name="par_asse_1" Min="0" Max="65535" active="true">par_asse_1_desc</PAR>
+    <PAR Name="par_asse_2" Min="0" Max="65535" active="true">par_asse_2_desc</PAR>
+    <PAR Name="par_asse_3" Min="0" Max="65535" active="true">par_asse_3_desc</PAR>
+    <PAR Name="par_asse_4" Min="0" Max="65535" active="true">par_asse_4_desc</PAR>
+    <PAR Name="par_asse_5" Min="0" Max="65535" active="true">par_asse_5_desc</PAR>
+    <PAR Name="par_asse_6" Min="0" Max="65535" active="true">par_asse_6_desc</PAR>
+    <PAR Name="par_asse_7" Min="0" Max="65535" active="true">par_asse_7_desc</PAR>
+    <PAR Name="par_asse_8" Min="0" Max="65535" active="true">par_asse_8_desc</PAR>
+    <PAR Name="par_asse_9" Min="0" Max="65535" active="true">par_asse_9_desc</PAR>
+    <PAR Name="par_asse_10" Min="0" Max="65535" active="true">par_asse_10_desc</PAR>
+    <PAR Name="par_asse_11" Min="0" Max="65535" active="true">par_asse_11_desc</PAR>
+    <PAR Name="par_asse_12" Min="0" Max="65535" active="true">par_asse_12_desc</PAR>
+    <PAR Name="par_asse_13" Min="0" Max="65535" active="true">par_asse_13_desc</PAR>
+    <PAR Name="par_asse_14" Min="0" Max="65535" active="true">par_asse_14_desc</PAR>
+    <PAR Name="par_asse_15" Min="0" Max="65535" active="true">par_asse_15_desc</PAR>
+    <PAR Name="par_asse_16" Min="0" Max="65535" active="true">par_asse_16_desc</PAR>
+    <PAR Name="par_asse_17" Min="0" Max="65535" active="true">par_asse_17_desc</PAR>
+    <PAR Name="par_asse_18" Min="0" Max="65535" active="true">par_asse_18_desc</PAR>
+    <PAR Name="par_asse_19" Min="0" Max="65535" active="true">par_asse_19_desc</PAR>
+    <PAR Name="par_asse_20" Min="0" Max="65535" active="true">par_asse_20_desc</PAR> 
+  </PAR_LIST>
+  <PAR_LIST Tipo="1" Id="1" Name ="ASSE 2">
+    <PAR Name="Q. ZERO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="F.C. + " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="F.C. - " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="VEL.MAX" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="OFF.COL" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="VEL.MIN" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="V. ZERO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="GR A/D " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="T. ADC " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="T. ADC KO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KRXI     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="INVRIF   " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KINT     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KPROP    " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KCOR     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="PROP.COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="DER. COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="INT. COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true"></PAR>
+  </PAR_LIST>
+  <PAR_LIST Tipo="1" Id="2" Name ="ASSE 3">
+    <PAR Name="Q. ZERO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="F.C. + " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="F.C. - " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="VEL.MAX" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="OFF.COL" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="VEL.MIN" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="V. ZERO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="GR A/D " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="T. ADC " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="T. ADC KO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KRXI     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="INVRIF   " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KINT     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KPROP    " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KCOR     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="PROP.COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="DER. COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="INT. COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true"></PAR>
+  </PAR_LIST>
+  <PAR_LIST Tipo="1" Id="3" Name ="ASSE 4">
+    <PAR Name="Q. ZERO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="F.C. + " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="F.C. - " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="VEL.MAX" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="OFF.COL" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="VEL.MIN" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="V. ZERO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="GR A/D " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="T. ADC " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="T. ADC KO" Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KRXI     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="INVRIF   " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KINT     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KPROP    " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="KCOR     " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="PROP.COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="DER. COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="INT. COR." Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true"></PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true"></PAR>
+  </PAR_LIST> 
+  <PAR_LIST Tipo="2" Id="0"  Name ="MACCHINA" >
+    <PAR Name="par_macchina_1" Min="0" Max="65535" active="true">par_macchina_1_desc</PAR>
+    <PAR Name="par_macchina_2" Min="0" Max="65535" active="true">par_macchina_2_desc</PAR>
+    <PAR Name="par_macchina_3" Min="0" Max="65535" active="true">par_macchina_3_desc</PAR>
+    <PAR Name="par_macchina_4" Min="0" Max="65535" active="true">par_macchina_4_desc</PAR>
+    <PAR Name="par_macchina_5" Min="0" Max="65535" active="true">par_macchina_5_desc</PAR>
+    <PAR Name="par_macchina_6" Min="0" Max="65535" active="true">par_macchina_6_desc</PAR>
+    <PAR Name="par_macchina_7" Min="0" Max="65535" active="true">par_macchina_7_desc</PAR>
+    <PAR Name="par_macchina_8" Min="0" Max="65535" active="true">par_macchina_8_desc</PAR>
+    <PAR Name="par_macchina_9" Min="0" Max="65535" active="true">par_macchina_9_desc</PAR>
+    <PAR Name="par_macchina_10" Min="0" Max="65535" active="true">par_macchina_10_desc</PAR>
+    <PAR Name="par_macchina_11" Min="0" Max="65535" active="true">par_macchina_11_desc</PAR>
+    <PAR Name="par_macchina_12" Min="0" Max="65535" active="true">par_macchina_12_desc</PAR>
+    <PAR Name="par_macchina_13" Min="0" Max="65535" active="true">par_macchina_13_desc</PAR>
+    <PAR Name="par_macchina_14" Min="0" Max="65535" active="true">par_macchina_14_desc</PAR>
+    <PAR Name="par_macchina_15" Min="0" Max="65535" active="true">par_macchina_15_desc</PAR>
+    <PAR Name="par_macchina_16" Min="0" Max="65535" active="true">par_macchina_16_desc</PAR>
+    <PAR Name="par_macchina_17" Min="0" Max="65535" active="true">par_macchina_17_desc</PAR>
+    <PAR Name="par_macchina_18" Min="0" Max="65535" active="true">par_macchina_18_desc</PAR>
+    <PAR Name="par_macchina_19" Min="0" Max="65535" active="true">par_macchina_19_desc</PAR>
+    <PAR Name="par_macchina_20" Min="0" Max="65535" active="true">par_macchina_2'_desc</PAR> 
+  </PAR_LIST>
+  <PAR_LIST Tipo="3" Id="0" Name ="TIMER">
+    <PAR Name="par_timer_1" Min="0" Max="65535" active="true">par_timer_1_desc</PAR>
+    <PAR Name="par_timer_2" Min="0" Max="65535" active="true">par_timer_2_desc</PAR>
+    <PAR Name="par_timer_3" Min="0" Max="65535" active="true">par_timer_3_desc</PAR>
+    <PAR Name="par_timer_4" Min="0" Max="65535" active="true">par_timer_4_desc</PAR>
+    <PAR Name="par_timer_5" Min="0" Max="65535" active="true">par_timer_5_desc</PAR>
+    <PAR Name="par_timer_6" Min="0" Max="65535" active="true">par_timer_6_desc</PAR> 
+  </PAR_LIST>
+  <PAR_LIST Tipo="4" Id="0" Name ="CONTATORI">
+    <PAR Name="par_contatori_1" Min="0" Max="65535" active="true">par_contatori_1_desc</PAR>
+    <PAR Name="par_contatori_2" Min="0" Max="65535" active="true">par_contatori_2_desc</PAR>
+    <PAR Name="par_contatori_3" Min="0" Max="65535" active="true">par_contatori_3_desc</PAR>
+    <PAR Name="par_contatori_4" Min="0" Max="65535" active="true">par_contatori_4_desc</PAR>
+    <PAR Name="par_contatori_5" Min="0" Max="65535" active="true">par_contatori_5_desc</PAR>
+    <PAR Name="par_contatori_6" Min="0" Max="65535" active="true">par_contatori_6_desc</PAR>
+  </PAR_LIST>
+  <PAR_LIST Tipo="5" Id="0"  Name ="MONOSTABILI">
+    <PAR Name="par_monostabili_1" Min="0" Max="65535" active="true">par_monostabili_1_desc</PAR>
+    <PAR Name="par_monostabili_2" Min="0" Max="65535" active="true">par_monostabili_2_desc</PAR>
+    <PAR Name="par_monostabili_3" Min="0" Max="65535" active="true">par_monostabili_3_desc</PAR>
+    <PAR Name="par_monostabili_4" Min="0" Max="65535" active="true">par_monostabili_4_desc</PAR>
+    <PAR Name="par_monostabili_5" Min="0" Max="65535" active="true">par_monostabili_5_desc</PAR>
+    <PAR Name="par_monostabili_6" Min="0" Max="65535" active="true">par_monostabili_6_desc</PAR>
+  </PAR_LIST>
+</PARS_DEF>

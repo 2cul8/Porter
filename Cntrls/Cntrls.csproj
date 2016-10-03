@@ -1,0 +1,417 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3BD09666-1D95-4AB1-BF73-B34050875426}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cntrls</RootNamespace>
+    <AssemblyName>Cntrls</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>\FlashDisk\F420</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <DeployDirPrefix>\</DeployDirPrefix>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlarmMessageCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AlarmMessageCntrl.Designer.cs">
+      <DependentUpon>AlarmMessageCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\BaseControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\BaseControl.Designer.cs">
+      <DependentUpon>BaseControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\BitmapButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\BitmapButton.Designer.cs">
+      <DependentUpon>BitmapButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\BlinkControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\BlinkControl.Designer.cs">
+      <DependentUpon>BlinkControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\BorderedControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\BorderedControl.Designer.cs">
+      <DependentUpon>BorderedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\DoubleBufferedControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\DoubleBufferedControl.Designer.cs">
+      <DependentUpon>DoubleBufferedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\InfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\InfoControl.Designer.cs">
+      <DependentUpon>InfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\RoundedControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\RoundedControl.Designer.cs">
+      <DependentUpon>RoundedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseCntrls\TextControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BaseCntrls\TextControl.Designer.cs">
+      <DependentUpon>TextControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BatteryStatus.Designer.cs">
+      <DependentUpon>BatteryStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BedInfoCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BedInfoCntrl.Designer.cs">
+      <DependentUpon>BedInfoCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\Boxes.cs" />
+    <Compile Include="Boxes\frmLoadingBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmLoadingBox.Designer.cs">
+      <DependentUpon>frmLoadingBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmMessageBox.Designer.cs">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmNumPad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmNumPad.Designer.cs">
+      <DependentUpon>frmNumPad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\FrmPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\FrmPopUp.Designer.cs">
+      <DependentUpon>FrmPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmProgressDialog.Designer.cs">
+      <DependentUpon>frmProgressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmRequestId.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmRequestId.Designer.cs">
+      <DependentUpon>frmRequestId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boxes\frmRequestString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boxes\frmRequestString.Designer.cs">
+      <DependentUpon>frmRequestString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CkCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CkCntrl.Designer.cs">
+      <DependentUpon>CkCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphicLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphicLabel.designer.cs">
+      <DependentUpon>GraphicLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IoViewCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="IoViewCntrl.Designer.cs">
+      <DependentUpon>IoViewCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MessagesTabCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MessagesTabCntrl.Designer.cs">
+      <DependentUpon>MessagesTabCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OperatorCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OperatorCntrl.Designer.cs">
+      <DependentUpon>OperatorCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProgressBar.designer.cs">
+      <DependentUpon>ProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RdButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RdButton.Designer.cs">
+      <DependentUpon>RdButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SagoButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SagoButton.Designer.cs">
+      <DependentUpon>SagoButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpinnerCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpinnerCntrl.Designer.cs">
+      <DependentUpon>SpinnerCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusBarCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StatusBarCntrl.Designer.cs">
+      <DependentUpon>StatusBarCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StatusLeds.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StatusLeds.designer.cs">
+      <DependentUpon>StatusLeds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TabPorterCntrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TabPorterCntrl.Designer.cs">
+      <DependentUpon>TabPorterCntrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TarPotenziometro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TarPotenziometro.Designer.cs">
+      <DependentUpon>TarPotenziometro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VisualizzatoreStringhe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VisualizzatoreStringhe.Designer.cs">
+      <DependentUpon>VisualizzatoreStringhe.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AlarmMessageCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>AlarmMessageCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseCntrls\BlinkControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BlinkControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BatteryStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BedInfoCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BedInfoCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmLoadingBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLoadingBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmMessageBox.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmNumPad.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmNumPad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\FrmPopUp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmProgressDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProgressDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmRequestId.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRequestId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boxes\frmRequestString.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRequestString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CkCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CkCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IoViewCntrl.resx">
+      <DependentUpon>IoViewCntrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MessagesTabCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MessagesTabCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OperatorCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>OperatorCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RdButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RdButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SagoButton.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SagoButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpinnerCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SpinnerCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusBarCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatusBarCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StatusLeds.resx">
+      <DependentUpon>StatusLeds.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabPorterCntrl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabPorterCntrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TarPotenziometro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TarPotenziometro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VisualizzatoreStringhe.resx">
+      <DependentUpon>VisualizzatoreStringhe.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Grapics\BlackLed-DarkGrayBack.bmp" />
+    <Content Include="Grapics\Error.png" />
+    <Content Include="Grapics\Exclametion.png" />
+    <Content Include="Grapics\General.png" />
+    <Content Include="Grapics\GreenLed-DarkGreenBack.bmp" />
+    <Content Include="Grapics\OrangeLed-DarkOrangeBack.bmp" />
+    <Content Include="Grapics\Question.png" />
+    <Content Include="Grapics\RedLed-DarkRedBack.bmp" />
+    <Content Include="Grapics\YellowLed-DarkYellowBack.bmp" />
+    <None Include="Resources\CheckedIcon.PNG" />
+    <None Include="Resources\Leds\YellowLed-GrayBack.bmp" />
+    <None Include="Resources\Leds\YellowLed-DarkYellowBack.bmp" />
+    <None Include="Resources\Leds\YellowLed.bmp" />
+    <None Include="Resources\Leds\RedLed-GrayBack.bmp" />
+    <None Include="Resources\Leds\RedLed-DarkRedBack.bmp" />
+    <None Include="Resources\Leds\RedLed.bmp" />
+    <None Include="Resources\Leds\OrangeLed-GrayBack.bmp" />
+    <None Include="Resources\Leds\OrangeLed-DarkOrangeBack.bmp" />
+    <None Include="Resources\Leds\OrangeLed.bmp" />
+    <None Include="Resources\Leds\GreenLed-GrayBack.bmp" />
+    <None Include="Resources\Leds\GreenLed-DarkGreenBack.bmp" />
+    <None Include="Resources\Leds\GreenLed.bmp" />
+    <None Include="Resources\Leds\BlackLed-GrayBack.bmp" />
+    <None Include="Resources\Leds\BlackLed-DarkGrayBack.bmp" />
+    <None Include="Resources\Leds\BlackLed.bmp" />
+    <None Include="Resources\UpNormal.png" />
+    <None Include="Resources\DownPressed.png" />
+    <None Include="Resources\DownNormal.png" />
+    <None Include="Resources\UpPressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogManagement\LogManagement.csproj">
+      <Project>{E88B9EF9-228A-4043-A894-98CD051ED835}</Project>
+      <Name>LogManagement</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Resources\Resources.csproj">
+      <Project>{29DF9262-9BA2-49B8-A30B-AAECCD0D13F6}</Project>
+      <Name>Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graphics\" />
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

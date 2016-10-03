@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ADC>
+  <Adc id="0" name="ADC 1" minValue ="0" maxValue="65535"/>
+  <Adc id="1" name="ADC 2" minValue ="0" maxValue="65535"/>
+  <Adc id="2" name="ADC 3" minValue ="0" maxValue="65535"/>
+  <Adc id="3" name="ADC 4" minValue ="0" maxValue="65535"/>
+  <Adc id="4" name="ADC 5" minValue ="0" maxValue="65535"/>
+  <Adc id="5" name="ADC 6" minValue ="0" maxValue="65535"/>
+  <Adc id="6" name="ADC 7" minValue ="0" maxValue="65535"/>
+  <Adc id="7" name="ADC 8" minValue ="0" maxValue="65535"/>
+  <Adc id="8" name="ADC 9" minValue ="0" maxValue="65535"/>
+  <Adc id="9" name="ADC 10" minValue ="0" maxValue="65535"/>
+  <Adc id="10" name="ADC 11" minValue ="0" maxValue="65535"/>
+  <Adc id="11" name="ADC 12" minValue ="0" maxValue="65535"/>
+</ADC>

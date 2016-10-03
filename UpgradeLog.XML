@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SagoPorter">
+</Property><Property Name="File di soluzione" Value="C:\Users\Andrea\Documents\Visual Studio 2005\Projects\SagoPorter\SagoPorter.sln">
+</Property><Property Name="Date" Value="martedì 29 marzo 2016">
+</Property><Property Name="Time" Value="12:38:11">
+</Property></Properties><Event ErrorLevel="0" Project="XrossGDIPlus" Source="XrossGDIPlus\XrossGDIPlus.csproj" Description="Conversione progetto riuscita">
+</Event><Event ErrorLevel="3" Project="XrossGDIPlus" Source="XrossGDIPlus\XrossGDIPlus.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="XrossGDIPlus" Source="XrossGDIPlus\XrossGDIPlus.csproj" Description="Ricerca completata. Non è richiesto alcun aggiornamento per i file di progetto.">
+</Event></UpgradeLog>

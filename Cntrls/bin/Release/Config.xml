@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<GV_CONFIG>
+  <LANGUAGES>
+    <LANGUAGE Id ="1" Text="Italiano" Installed="true"/>
+    <LANGUAGE Id ="2" Text="Inglese" Installed="false"/>
+    <LANGUAGE Id ="3" Text="Francese" Installed="false"/>
+    <LANGUAGE Id ="4" Text="Tedesco" Installed="false"/>
+    <LANGUAGE Id ="5" Text="Spagnolo" Installed="false"/>
+    <LANGUAGE Id ="6" Text="Portoghese" Installed="false"/>
+    <LANGUAGE Id ="7" Text="" Installed="false"/>
+    <LANGUAGE Id ="8" Text="" Installed="false"/>
+    <LANGUAGE Id ="9" Text="" Installed="false"/>
+    <LANGUAGE Id ="10" Text="" Installed="false"/>
+    <LANGUAGE Id ="11" Text="" Installed="false"/>
+    <LANGUAGE Id ="12" Text="" Installed="false"/>
+    <LANGUAGE Id ="13" Text="" Installed="false"/>
+    <LANGUAGE Id ="14" Text="" Installed="false"/>
+    <LANGUAGE Id ="15" Text="" Installed="false"/>
+    <LANGUAGE Id ="16" Text="" Installed="false"/>
+    <LANGUAGE Id ="17" Text="" Installed="false"/>
+    <LANGUAGE Id ="18" Text="" Installed="false"/>
+    <LANGUAGE Id ="19" Text="" Installed="false"/>
+    <LANGUAGE Id ="20" Text="" Installed="false"/>
+  </LANGUAGES>
+  <APP_CONFIG DateTimeStyle ="0">
+    <DSA WorkOffLine="true"/>
+    <USB Name="\USB HD"/>
+    <NET DevName ="GVTar" DevIP="192.168.1.101"  FolderName="\FlashDisk\USRDIR"/>
+    <VARS SSInterval="300" ShowCursor="true"/>
+    <COM Name="COM2" />
+    <STAT StatEnable="false" FileName="TarStat.txt"/> 
+    <DATA LastSource="Loc"/> 
+    <LOG EnableRemote="true" EnableLocal="false"/>
+    <SIMULATORE Value="true"/>
+  </APP_CONFIG> 
+</GV_CONFIG>

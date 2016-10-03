@@ -1,0 +1,414 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29DF9262-9BA2-49B8-A30B-AAECCD0D13F6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Resources</RootNamespace>
+    <AssemblyName>Resources</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>Resources</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EventsDef.cs" />
+    <Compile Include="Resources.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton242x111.bmp" />
+    <EmbeddedResource Include="Images\buttton68x60.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton242x111_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton242x111_blinked.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton68x60_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton242x88BotRightRounded.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88BotRightRounded_blinked.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88BotRightRounded_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88NoRound.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88NoRound_blinked.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88NoRound_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88TopRounded.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88TopRounded_blinked.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88TopRounded_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton242x88BotLeftRounded.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88BotLeftRounded_blinked.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88BotLeftRounded_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88TopLeftRounded.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88TopLeftRounded_blinked.bmp" />
+    <EmbeddedResource Include="Images\buttton242x88TopLeftRounded_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton140x70_esc.bmp" />
+    <EmbeddedResource Include="Images\buttton140x70_esc_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\batteryStatusEmpty.bmp" />
+    <EmbeddedResource Include="Images\batteryStatusOk.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\label352x162.bmp" />
+    <EmbeddedResource Include="Images\line80x1.bmp" />
+    <EmbeddedResource Include="Images\logo_simad_dark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\line336x3.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\backGround352x100.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\line80x1_red.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\alarm646x80_green.bmp" />
+    <EmbeddedResource Include="Images\alarm646x80_red.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton88x44.bmp" />
+    <EmbeddedResource Include="Images\buttton88x44_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\line492x1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\line1x168.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\selected_item.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\battery_20.png" />
+    <EmbeddedResource Include="Images\battery_40.png" />
+    <EmbeddedResource Include="Images\battery_60.png" />
+    <EmbeddedResource Include="Images\battery_80.png" />
+    <EmbeddedResource Include="Images\battery_empty.png" />
+    <EmbeddedResource Include="Images\battery_full.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\battery_charging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\battery_empty_blinked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\collapseButton.bmp" />
+    <EmbeddedResource Include="Images\expandButton.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\collapseButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\expandButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\no_image.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\expandButtonRed.bmp" />
+    <EmbeddedResource Include="Images\expandButtonRed_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton140x60.bmp" />
+    <EmbeddedResource Include="Images\buttton140x60_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton140x60_lock.bmp" />
+    <EmbeddedResource Include="Images\buttton140x60_lock_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton165x46.bmp" />
+    <EmbeddedResource Include="Images\buttton165x46_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\tabBackGround.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton165x46_selected.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton156x66.bmp" />
+    <EmbeddedResource Include="Images\buttton156x66_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\tabOrizontalLine.bmp" />
+    <EmbeddedResource Include="Images\tabVerticalLine.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\moveLeft.bmp" />
+    <EmbeddedResource Include="Images\moveLeft_pressed.bmp" />
+    <EmbeddedResource Include="Images\moveRight.bmp" />
+    <EmbeddedResource Include="Images\moveRight_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton60x47.bmp" />
+    <EmbeddedResource Include="Images\buttton60x47_canc.bmp" />
+    <EmbeddedResource Include="Images\buttton60x47_canc_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton60x47_ok.bmp" />
+    <EmbeddedResource Include="Images\buttton60x47_ok_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton60x47_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton126x47_redo.bmp" />
+    <EmbeddedResource Include="Images\buttton126x47_redo_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\dialogNumPadBackGround.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\line192x1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\dialogErrorBackGround.bmp" />
+    <EmbeddedResource Include="Images\dialogMessageBackGround.bmp" />
+    <EmbeddedResource Include="Images\dialogWarningBackGround.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings\String.ita.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton_lock.bmp" />
+    <EmbeddedResource Include="Images\buttton_lock_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton_unlock.bmp" />
+    <EmbeddedResource Include="Images\buttton_unlock_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_0.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_10.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_11.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_12.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_13.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_14.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_15.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_16.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_17.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_18.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_19.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_1.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_2.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_3.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_4.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_5.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_6.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_7.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_8.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesBlack\frame_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton242x88NoRound_disabled.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\frmMovingBackGround.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\line800x4.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton68x60_messages.bmp" />
+    <EmbeddedResource Include="Images\buttton68x60_messages_pressed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton68x60_messages_blinked.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\alarm_off.bmp" />
+    <EmbeddedResource Include="Images\alarm_on.bmp" />
+    <EmbeddedResource Include="Images\left_hand.bmp" />
+    <EmbeddedResource Include="Images\left_hand_present.bmp" />
+    <EmbeddedResource Include="Images\right_hand.bmp" />
+    <EmbeddedResource Include="Images\right_hand_present.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\pinze_off.bmp" />
+    <EmbeddedResource Include="Images\pinze_on.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\movingStatusBackGround.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\moving_off.bmp" />
+    <EmbeddedResource Include="Images\moving_on.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\letto_off.bmp" />
+    <EmbeddedResource Include="Images\letto_on.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\batteryStatusExtended.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\line336x3_red.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\buttton126x47.bmp" />
+    <EmbeddedResource Include="Images\buttton126x47_pressed.bmp" />
+    <EmbeddedResource Include="Images\backGround600x360.bmp" />
+    <EmbeddedResource Include="Images\buttton80x80.bmp" />
+    <EmbeddedResource Include="Images\buttton80x80_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton80x80_canc.bmp" />
+    <EmbeddedResource Include="Images\buttton80x80_canc_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton80x80_ok_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton80x80_ok.bmp" />
+    <EmbeddedResource Include="Images\buttton68x51_left.bmp" />
+    <EmbeddedResource Include="Images\buttton68x51_left_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton68x51_right.bmp" />
+    <EmbeddedResource Include="Images\buttton68x51_right_pressed.bmp" />
+    <EmbeddedResource Include="Images\clearButton.bmp" />
+    <EmbeddedResource Include="Images\clearButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\background667x400.bmp" />
+    <EmbeddedResource Include="Images\buttton68x60_warning.bmp" />
+    <EmbeddedResource Include="Images\buttton68x60_warning_pressed.bmp" />
+    <EmbeddedResource Include="Images\buttton68x60_warning_blinked.bmp" />
+    <EmbeddedResource Include="Images\buttton68x60_messages_disabled.bmp" />
+    <EmbeddedResource Include="Images\buttton68x60_warning_disabled.bmp" />
+    <EmbeddedResource Include="Images\closeButton.bmp" />
+    <EmbeddedResource Include="Images\closeButton_pressed.bmp" />
+    <EmbeddedResource Include="Strings\String.esp.xml" />
+    <EmbeddedResource Include="Strings\String.eng.xml" />
+    <EmbeddedResource Include="Strings\Languages.xml" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_0.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_1.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_10.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_11.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_12.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_13.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_14.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_15.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_16.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_17.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_18.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_19.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_2.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_3.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_4.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_5.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_6.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_7.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_8.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite32x32\frame_9.gif" />
+    <EmbeddedResource Include="Images\collapseButtonRed.bmp" />
+    <EmbeddedResource Include="Images\hourglass_red.bmp" />
+    <EmbeddedResource Include="Images\percentage_red.bmp" />
+    <EmbeddedResource Include="Images\voltage_red.bmp" />
+    <EmbeddedResource Include="Images\collapseButtonRed_pressed.bmp" />
+    <EmbeddedResource Include="Images\sendButton.bmp" />
+    <EmbeddedResource Include="Images\sendButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\messageFlagOff.bmp" />
+    <EmbeddedResource Include="Images\messageFlagOff_selected.bmp" />
+    <EmbeddedResource Include="Images\messageFlagOn.bmp" />
+    <EmbeddedResource Include="Images\messageFlagOn_selected.bmp" />
+    <EmbeddedResource Include="Images\wifi_off.bmp" />
+    <EmbeddedResource Include="Images\wifi_on.bmp" />
+    <EmbeddedResource Include="Images\moveFastButton.bmp" />
+    <EmbeddedResource Include="Images\moveFastButton_disabled.bmp" />
+    <EmbeddedResource Include="Images\moveFastButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\moveSlowButton.bmp" />
+    <EmbeddedResource Include="Images\moveSlowButton_disabled.bmp" />
+    <EmbeddedResource Include="Images\moveSlowButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\left_hand_yellow.bmp" />
+    <EmbeddedResource Include="Images\right_hand_yellow.bmp" />
+    <EmbeddedResource Include="Images\userStatsButton.bmp" />
+    <EmbeddedResource Include="Images\userStatsButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\hourglass.bmp" />
+    <EmbeddedResource Include="Images\percentage.bmp" />
+    <EmbeddedResource Include="Images\voltage.bmp" />
+    <EmbeddedResource Include="Images\loginButton.bmp" />
+    <EmbeddedResource Include="Images\loginButton_pressed.bmp" />
+    <EmbeddedResource Include="Images\free_moving_off.bmp" />
+    <EmbeddedResource Include="Images\free_moving_on.bmp" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_0.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_10.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_11.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_12.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_13.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_14.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_15.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_16.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_17.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_18.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_19.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_1.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_2.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_3.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_4.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_5.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_6.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_7.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_8.gif" />
+    <EmbeddedResource Include="Images\SpinnerFramesWhite\frame_9.gif" />
+    <EmbeddedResource Include="Images\batteryStatusExtended_empty.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Settings.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogManagement\LogManagement.csproj">
+      <Project>{E88B9EF9-228A-4043-A894-98CD051ED835}</Project>
+      <Name>LogManagement</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

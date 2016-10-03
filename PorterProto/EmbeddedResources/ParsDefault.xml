@@ -1,0 +1,137 @@
+﻿<?xml version="1.0"?>
+<PARAMETRI Dispositivo="PORTER">
+  <PAR_LIST Tipo ="1"  Id="0">
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="200" />
+    <PAR value="0" />
+    <PAR value="50" />
+    <PAR value="0" />
+    <PAR value="10" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="8" />
+    <PAR value="527" />
+    <PAR value="20" />
+    <PAR value="20" />
+    <PAR value="40" />
+    <PAR value="50" />
+    <PAR value="5" />
+    <PAR value="20" />
+    <PAR value="19" />
+    <PAR value="514" /> 
+  </PAR_LIST>
+  <PAR_LIST Tipo ="1" Id="1">
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="200" />
+    <PAR value="0" />
+    <PAR value="50" />
+    <PAR value="0" />
+    <PAR value="10" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="8" />
+    <PAR value="527" />
+    <PAR value="20" />
+    <PAR value="20" />
+    <PAR value="40" />
+    <PAR value="50" />
+    <PAR value="5" />
+    <PAR value="20" />
+    <PAR value="19" />
+    <PAR value="514" />
+  </PAR_LIST>
+  <PAR_LIST Tipo ="1" Id="2">
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="500" />
+    <PAR value="480" />
+    <PAR value="200" />
+    <PAR value="50" />
+    <PAR value="3" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="8" />
+    <PAR value="512" />
+    <PAR value="400" />
+    <PAR value="1500" />
+    <PAR value="120" />
+    <PAR value="40" />
+    <PAR value="0" />
+    <PAR value="60" />
+    <PAR value="19" />
+    <PAR value="512" />
+  </PAR_LIST>
+  <PAR_LIST Tipo ="1" Id="3">
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="500" />
+    <PAR value="480" />
+    <PAR value="200" />
+    <PAR value="50" />
+    <PAR value="3" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="8" />
+    <PAR value="512" />
+    <PAR value="400" />
+    <PAR value="1500" />
+    <PAR value="120" />
+    <PAR value="40" />
+    <PAR value="0" />
+    <PAR value="60" />
+    <PAR value="19" />
+    <PAR value="512" />
+  </PAR_LIST> 
+  <PAR_LIST Tipo ="2" Id="0">
+    <PAR value="0" />
+    <PAR value="30" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="500" />
+    <PAR value="370" />
+    <PAR value="620" />
+    <PAR value="620" />
+    <PAR value="692" />
+    <PAR value="308" />
+    <PAR value="500" />
+    <PAR value="500" />
+    <PAR value="500" />
+    <PAR value="2" />
+    <PAR value="920" />
+    <PAR value="200" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+  </PAR_LIST>
+  <PAR_LIST Tipo ="3" Id="0">
+    <PAR value="6" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="768" />
+    <PAR value="16" /> 
+  </PAR_LIST>
+  <PAR_LIST Tipo ="4" Id="0">
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="0" />
+  </PAR_LIST>
+  <PAR_LIST Tipo ="5" Id="0">
+    <PAR value="0" />
+    <PAR value="0" />
+    <PAR value="32" />
+    <PAR value="32" />
+    <PAR value="512" />
+    <PAR value="0" />
+  </PAR_LIST>
+</PARAMETRI>

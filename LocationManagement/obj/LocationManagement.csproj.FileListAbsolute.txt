@@ -1,0 +1,14 @@
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Release\LocationManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Release\LocationManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Release\LogManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Release\LogManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\obj\Release\LocationManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\obj\Release\LocationManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Debug\LocationManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Debug\LocationManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Debug\LogManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\bin\Debug\LogManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\obj\Debug\LocationManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LocationManagement\obj\Debug\LocationManagement.pdb

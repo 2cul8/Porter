@@ -1,0 +1,1481 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ERRORS>
+  <PARAMETERS_MANAGER>
+  <Error SpecificError="0001" Source="1" >
+    <Descrizione l="1">Errore non riconosciuto.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0002" Source="1" >
+    <Descrizione l="1">File ParAsse non trovato.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0003" Source="1" >
+    <Descrizione l="1">File ParAsse non valido.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0004" Source="1" >
+    <Descrizione l="1">File ParPLC non trovato.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0005" Source="1" >
+    <Descrizione l="1">File ParPLC non valido.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0006" Source="1" >
+    <Descrizione l="1">File ParMacchina non trovato.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0007" Source="1" >
+    <Descrizione l="1">File ParMacchina non valido.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0008" Source="1" >
+    <Descrizione l="1">File Parametri_Text non trovato.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0009" Source="1" >
+    <Descrizione l="1">File Parametri_Text non valido.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0010" Source="1" >
+    <Descrizione l="1"></Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0011" Source="1" >
+    <Descrizione l="1"></Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0012" Source="1" >
+    <Descrizione l="1"></Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0013" Source="1" >
+    <Descrizione l="1"></Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0014" Source="1" >
+    <Descrizione l="1"></Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0015" Source="1" >
+    <Descrizione l="1">Errore di Elaborazione (Lettura Valori).</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0016" Source="1" >
+    <Descrizione l="1">Errore di Elaborazione (Lettura Testi).</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0017" Source="1" >
+    <Descrizione l="1">Lettura valori: Nodo Radice non trovato.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0018" Source="1" >
+    <Descrizione l="1">Errore lettura valore singolo.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0019" Source="1" >
+    <Descrizione l="1">Errore lettura testi: Radice ParAsse non Trovata.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0020" Source="1" >
+    <Descrizione l="1">Errore lettura testi: Radice ParPLC non Trovata.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0021" Source="1" >
+    <Descrizione l="1">Errore lettura testi: Radice ParMacchina non Trovata.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0022" Source="1" >
+    <Descrizione l="1">Errore lettura testi: Identificatore Parametri Asse non Valido.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0023" Source="1" >
+    <Descrizione l="1">Errore lettura testi: Identificatore Parametri PLC non Valido.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0024" Source="1" >
+    <Descrizione l="1">Errore lettura testi: Identificatore Parametri Macchina non Valido.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+  <Error SpecificError="0025" Source="1" >
+    <Descrizione l="1">Errore: Superato il numero massimo di lingue.</Descrizione>
+    <Descrizione l="2"></Descrizione>
+    <Descrizione l="3"></Descrizione>
+    <Descrizione l="4"></Descrizione>
+    <Descrizione l="5"></Descrizione>
+  </Error>
+    <Error SpecificError="0026" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0027" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0028" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0029" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0030" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0031" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0032" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0033" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0034" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0035" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0036" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0037" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0038" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0039" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0040" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0041" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0042" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0043" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0044" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0045" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0046" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0047" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0048" Source="1" >
+      <Descrizione l="1">Errore lettura testo Parametro Asse.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0049" Source="1" >
+      <Descrizione l="1">Errore lettura testo Parametro Macchina.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0050" Source="1" >
+      <Descrizione l="1">Errore lettura testo Parametro PLC. </Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0051" Source="1" >
+      <Descrizione l="1">Errore scrittura ParAsse -> Lista non trovata.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0052" Source="1" >
+      <Descrizione l="1">Errore scrittura ParPLC -> Lista non trovata.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0053" Source="1" >
+      <Descrizione l="1">Errore scrittura ParMacchina -> Lista non trovata.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0054" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0055" Source="1" >
+      <Descrizione l="1">Errore creazione tabella valori parametri Asse.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0056" Source="1" >
+      <Descrizione l="1">Errore creazione tabella valori parametri PLC.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0057" Source="1" >
+      <Descrizione l="1">Errore creazione tabella valori parametri Macchina.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0058" Source="1" >
+      <Descrizione l="1">Errore salvataggio ParAsse.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0059" Source="1" >
+      <Descrizione l="1">Errore salvataggio ParPLC.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0060" Source="1" >
+      <Descrizione l="1">Errore salvataggio ParMacchina.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0061" Source="1" >
+      <Descrizione l="1">Valore oltre i limiti specificati.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0062" Source="1" >
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0063" Source="1" >
+      <Descrizione l="1">Esporta: dispositivo USB non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0064" Source="1" >
+      <Descrizione l="1">Esporta: errore creazione directory di destinazione.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0065" Source="1" >
+      <Descrizione l="1">Esporta: errore copia parametri Asse.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0066" Source="1" >
+      <Descrizione l="1">Esporta: errore copia parametri PLC.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0067" Source="1" >
+      <Descrizione l="1">Esporta: errore copia parametri Macchina.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </PARAMETERS_MANAGER>
+  <ALLARM_LOADER> 
+  </ALLARM_LOADER>
+  <PROTOCOL_MANAGER>
+    <Error SpecificError="0001" Source="3">
+      <Descrizione l="1">Invio Parametri: Errore creazione struttura dati.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="3">
+      <Descrizione l="1">Invio Parametri: Valore del parametro oltre i limiti consentiti.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0003" Source="3">
+      <Descrizione l="1">Errore durante la richiesta delle Versioni DSA.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0004" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0005" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0006" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0007" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0008" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0009" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0010" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0011" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0012" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0013" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0014" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0015" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0016" Source="3">
+      <Descrizione l="1">Apertura Porta seriale Com. DSA: InvalidOperationException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0017" Source="3">
+      <Descrizione l="1">Apertura Porta seriale Com. DSA: ArgumentException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0018" Source="3">
+      <Descrizione l="1">Apertura Porta seriale Com. DSA: ArgumentOutOfRangeException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0019" Source="3">
+      <Descrizione l="1">Apertura Porta seriale Com. DSA: UnauthorizedAccessException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0020" Source="3">
+      <Descrizione l="1">Apertura Porta seriale Com. DSA: IOException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0021" Source="3">
+      <Descrizione l="1">Apertura Porta seriale Com. DSA: InvalidOperationException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0022" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0023" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0024" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0025" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0026" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0027" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0028" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0029" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0030" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0031" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0032" Source="3">
+      <Descrizione l="1">Scrittura Porta seriale: InvalidOperationException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0033" Source="3">
+      <Descrizione l="1">Scrittura Porta seriale: ArgumentException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0034" Source="3">
+      <Descrizione l="1">Scrittura Porta seriale: ArgumentOutOfRangeException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0035" Source="3">
+      <Descrizione l="1">Scrittura Porta seriale: TimeoutException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0036" Source="3">
+      <Descrizione l="1">Scrittura Porta seriale: IOException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0037" Source="3">
+      <Descrizione l="1">Scrittura Porta seriale: ArgumentNullException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0038" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0039" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0040" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="041" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0042" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0043" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0044" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0045" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0046" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0047" Source="3">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0048" Source="3">
+      <Descrizione l="1">Lettura Porta seriale: TimeOut Occurred.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0049" Source="3">
+      <Descrizione l="1">Lettura Porta seriale: InvalidOperationException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0050" Source="3">
+      <Descrizione l="1">Lettura Porta seriale: TimeoutException. </Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0255" Source="3">
+      <Descrizione l="1">COM non inizializzata. </Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </PROTOCOL_MANAGER>
+  <DATA_MANAGER>
+    <Error SpecificError="0001" Source="4">
+      <Descrizione l="1">File Xml non trovato o non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="4">
+      <Descrizione l="1">Errore durante la lettura dei Dati Articoli.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0003" Source="4">
+      <Descrizione l="1">Codice articolo non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0004" Source="4">
+      <Descrizione l="1">DataBase non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0005" Source="4">
+      <Descrizione l="1">Errore lettura DataBase.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0006" Source="4">
+      <Descrizione l="1">Errore salvataggio DataBase Locale.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0007" Source="4">
+      <Descrizione l="1">Codice del nuovo articolo già esistente.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0008" Source="4">
+      <Descrizione l="1">Set ultimo usato: errore salvataggio DataBase.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0009" Source="4">
+      <Descrizione l="1">DataBase di Rete non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0010" Source="4">
+      <Descrizione l="1">DataBase di Rete non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0011" Source="4">
+      <Descrizione l="1">DataBase da USB non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0012" Source="4">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0013" Source="4">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0014" Source="4">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0015" Source="4">
+      <Descrizione l="1">DataBase su USB non valido. </Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0016" Source="4">
+      <Descrizione l="1">DataBase Articoli Locale non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0017" Source="4">
+      <Descrizione l="1">Errore salvataggio DataBase di Rete.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0018" Source="4">
+      <Descrizione l="1">Errore salvataggio DataBase su USB.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0019" Source="4">
+      <Descrizione l="1">Errore salvataggio DataBase su USB. Dispositivo non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0020" Source="4">
+      <Descrizione l="1">DataBase Articoli di rete non caricato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0021" Source="4">
+      <Descrizione l="1">DataBase Articoli su USB non caricato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0022" Source="4">
+      <Descrizione l="1">Errore avvenuto durante l'operazione di Past.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0023" Source="4">
+      <Descrizione l="1">Nessuna risorsa di origine specificata.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0024" Source="4">
+      <Descrizione l="1">DataBase su USB non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0025" Source="4">
+      <Descrizione l="1">DataBase di Rete non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0026" Source="4">
+      <Descrizione l="1">DataBase di Rete non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0027" Source="4">
+      <Descrizione l="1">OffSet non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0028" Source="4">
+      <Descrizione l="1">DataBase OffSet Locale non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0029" Source="4">
+      <Descrizione l="1">DataBase OffSet di rete non caricato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0030" Source="4">
+      <Descrizione l="1">DataBase OffSet su USB non caricato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0031" Source="4">
+      <Descrizione l="1">Codice del nuovo OffSet già esistente.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0032" Source="4">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0033" Source="4">
+      <Descrizione l="1">Errore durante l'esecuzione della richiesta (Copia OffSet).</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </DATA_MANAGER>
+  <BACK_UP_MANAGER>
+    <Error SpecificError="0001" Source="5">
+      <Descrizione l="1">Dispositivo USB non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="5">
+      <Descrizione l="1">Creazione BkUp: Errore salvataggio Info.dat.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0003" Source="5">
+      <Descrizione l="1">Creazione BkUp: Errore compressione Info.dat.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0004" Source="5">
+      <Descrizione l="1">Creazione BkUp: Errore durante il salvataggio dell'archivio.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0005" Source="5">
+      <Descrizione l="1">Creazione BkUp: Errore non riconosciuto.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0006" Source="5">
+      <Descrizione l="1">Creazione BkUp: Errore durante la creazione dell'archivio dati.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0007" Source="5">
+      <Descrizione l="1">Creazione BkUp: Un altro salvataggio è in corso.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0008" Source="5">
+      <Descrizione l="1">Creazione BkUp: Errore durante la creazione del Thread di salvataggio.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0009" Source="5">
+      <Descrizione l="1">Caricamento BkUp: Archivio richiesto non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0010" Source="5">
+      <Descrizione l="1">Caricamento BkUp: Archivio richiesto non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0011" Source="5">
+      <Descrizione l="1">Caricamento BkUp: Errore durante la lettura dei Link di BackUp.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0012" Source="5">
+      <Descrizione l="1">Caricamento BkUp: Errore durante il ripristino dei dati.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0013" Source="5">
+      <Descrizione l="1">Caricamento BkUp: Errore durante l'inizializzazione dell'operazione richiesta.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0014" Source="5">
+      <Descrizione l="1">Elimina BkUp: Errore durante la cancellazione dell'archivio selezionato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </BACK_UP_MANAGER>
+  <APPLICATION>
+    <Error SpecificError="0001" Source="6">
+      <Descrizione l="1">Errore non riconosciuto.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="6">
+      <Descrizione l="1">Errore caricamento delle immagini.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0003" Source="6">
+      <Descrizione l="1">Errore caricamento form statici.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0004" Source="6">
+      <Descrizione l="1">Errore caricamento form strumenti.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0005" Source="6">
+      <Descrizione l="1">Errore lettura DataBase.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0006" Source="6">
+      <Descrizione l="1">Errore salvataggio DataBase Locale.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0007" Source="6">
+      <Descrizione l="1">Codice del nuovo articolo già esistente.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0008" Source="6">
+      <Descrizione l="1">Set ultimo usato: errore salvataggio DataBase.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0009" Source="6">
+      <Descrizione l="1">File Xml di Rete non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0010" Source="6">
+      <Descrizione l="1">DataBase di Rete non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0011" Source="6">
+      <Descrizione l="1">DataBase da USB non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0012" Source="6">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0013" Source="6">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0014" Source="6">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0015" Source="6">
+      <Descrizione l="1">File Xml su USB non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0016" Source="6">
+      <Descrizione l="1">DataBase Locale non inizializzato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0017" Source="6">
+      <Descrizione l="1">Errore salvataggio DataBase di Rete.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0018" Source="6">
+      <Descrizione l="1">Errore salvataggio DataBase su USB.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0019" Source="6">
+      <Descrizione l="1">Errore salvataggio DataBase su USB. Dispositivo non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0020" Source="6">
+      <Descrizione l="1">DataBase di rete non caricato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0021" Source="6">
+      <Descrizione l="1">DataBase su USB non caricato. </Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0022" Source="6">
+      <Descrizione l="1"></Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </APPLICATION>
+  <APPLICATION_CONFIG>
+    <Error SpecificError="0001" Source="7">
+      <Descrizione l="1">Errore caricamento Configurazione: File Config.xml non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="7">
+      <Descrizione l="1">Errore caricamento Configurazione: File Config.xml non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </APPLICATION_CONFIG>
+  <DSA_MANAGER>
+    <Error SpecificError="0001" Source="8">
+      <Descrizione l="1">Init. DSA Thread Manager: ArgumentNullException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="8">
+      <Descrizione l="1">Init. DSA Thread Manager: ThreadStateException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0003" Source="8">
+      <Descrizione l="1">Init. DSA Thread Manager: SecurityException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0004" Source="8">
+      <Descrizione l="1">Init. DSA Thread Manager: OutOfMemoryException.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0005" Source="8">
+      <Descrizione l="1">Comunicazione DSA fallita.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </DSA_MANAGER>
+  <TEXT_MANAGER>
+    <Error SpecificError="0001" Source="9">
+      <Descrizione l="1">File FormText.xml non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </TEXT_MANAGER>
+  <STAT_MANAGER>
+    <Error SpecificError="0001" Source="10">
+      <Descrizione l="1">Statistiche USB: dispositivo USB non trovato.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="10">
+      <Descrizione l="1">Statistiche USB: errore durante la creazione del File di appoggio statistiche.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0003" Source="10">
+      <Descrizione l="1">Statistiche USB: errore durante la scrittura della stringa.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0004" Source="10">
+      <Descrizione l="1">Statistiche USB: errore durante la chusura dello Stream.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </STAT_MANAGER>
+  <BC_MANAGER>
+    <Error SpecificError="0001" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore lettura parametri seriale.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0002" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore apertura porta seriale.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0003" Source="11">
+      <Descrizione l="1">SGestione BarCode: Errore apertura porta seriale: operazione non valida sulla porta selezionata.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0004" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore apertura porta seriale: nome non valido.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0005" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore apertura porta seriale: operazione non autorizzata.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0006" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore start listener thread.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0007" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore chiusura porta seriale.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0008" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore lettura carattere: TimeOut.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+    <Error SpecificError="0009" Source="11">
+      <Descrizione l="1">Gestione BarCode: Errore lettura carattere.</Descrizione>
+      <Descrizione l="2"></Descrizione>
+      <Descrizione l="3"></Descrizione>
+      <Descrizione l="4"></Descrizione>
+      <Descrizione l="5"></Descrizione>
+    </Error>
+  </BC_MANAGER>
+</ERRORS>

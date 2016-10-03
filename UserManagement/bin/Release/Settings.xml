@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+  <language selected="0"/> 
+  <remoting enable="false">
+    <network_bridge ip="0.0.0.0" port="0"/> 
+    <remote_update interval="5000"/>
+  </remoting>
+  <data check_key=""/>
+</settings>

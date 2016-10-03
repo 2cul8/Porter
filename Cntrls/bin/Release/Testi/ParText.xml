@@ -1,0 +1,1223 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--  
+  <Value Id="0000" MaxValue="" MinValue="" Type="" MyValue="">
+    <Descrizione l="1" Name=""></Descrizione>
+    <Descrizione l="2" Name=""></Descrizione>
+    <Descrizione l="3" Name=""></Descrizione>
+    <Descrizione l="4" Name=""></Descrizione>
+    <Descrizione l="5" Name=""></Descrizione>
+  </Value>
+-->
+
+<PAR_TEXT>
+  <ASSE>
+    <Value Id="0001">
+      <Descrizione l="1" Name="QUOTA DI ZERO">Valore, in unità di misura scelta, assegnato all'azzeramento.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0002">
+      <Descrizione l="1" Name="QUOTA F.C. SOFT.+">Valore del fine corsa software massimo, ovvero massimo valore raggiungibile dall'asse.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0003">
+      <Descrizione l="1" Name="QUOTA F.C. SOFT.-">Valore del fine corsa software minimo.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0004">
+      <Descrizione l="1" Name="RECUPERO GIOCO">Valore, in unità di misura scelta, di superamento della quota per il recupero gioco meccanico. Può essere in incremento o in decremento, definito con + o -.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0005">
+      <Descrizione l="1" Name="INSEGUIMENTO MAX">Valore limite, in impulsi encoder, concesso all'errore di inseguimento. Superato questo valore interviene l'arresto per disabilitazione dell'asse con la comparsa del relativo messaggio.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0006">
+      <Descrizione l="1" Name="TOLLER.ASSE IN Q.">Valore, in impulsi encoder, della tolleranza che definisce raggiunta la posizione impostata.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0007">
+      <Descrizione l="1" Name="UNIT.MISURA 0...5">Definisce il numero di caratteri visualizzati dopo la virgola.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0008">
+      <Descrizione l="1" Name="V.MAX mm/minuto">Valore della velocità massima, in millimetri al minuto.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0009">
+      <Descrizione l="1" Name="Vel.LAVORO 1/1000">Velocità di ciclo espressa in millesimi di VMax.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0010">
+      <Descrizione l="1" Name="Vel.ZERO 1/1000">Valore della velocità di azzeramento (SET POINT) espressa in millesimi di VMax.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0011">
+      <Descrizione l="1" Name="Vel.RALLEN.1/1000">Velocità di ciclo espressa in millesimi di VMax.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0012">
+      <Descrizione l="1" Name="VMAX MANU. 1/1000">Valore della velocità massima manuale espressa in millesimi di VMax.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0013">
+      <Descrizione l="1" Name="VMIN MANU. 1/1000">Valore della velocità minima manuale espressa in millesimi di VMax.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0014">
+      <Descrizione l="1" Name="TEMPO RAMPA ACC.">Durata in millisecondi della accelerzione.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0015">
+      <Descrizione l="1" Name="TEMPO RAMPA DEC.">Durata in millisecondi della decelerazione.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0016">
+      <Descrizione l="1" Name="GUADAGNO DINAMICO">Fattore moltiplicativo utilizzato per correggere l'errore reale di spazio. Il valore imposto di 256 corrisponde a KVD = 1. Questo dato viene moltiplicato per l'errore in impulsi encoder e sommato algebricamente al riferimento di velocità.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0017">
+      <Descrizione l="1" Name="GUADAGNO SU OFFS.">Fattore moltiplicativo utilizzato per correggere l'errore reale di spazio. Il valore imposto di 256 corrisponde a KVD = 1. Questo dato viene moltiplicato per l'errore in impulsi encoder e sommato algebricamente al riferimento di velocità. Rispetto al parametro 16 interviene quando la velocità teorica è a zero, anche nel caso in cui si stia lavorando in anello di spazio aperto.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0018">
+      <Descrizione l="1" Name="GUADAGNO STAT.KVS">Risultato del clcolo realizzato per ottenere il fondo scala di riferimento desiderato. Se nel parametro '33' è settato il valore 0, questo paramentro viene calcolato automaticamente, quindi non deve essere modificato.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0019">
+      <Descrizione l="1" Name="MAPPATURA (0 = OFF)">Disabilitare il parametro quando i dati di mappatura non sono corretti ed in tutti i casi prima di accedere alle funzioni di modifica di essa (anche da trasf. seriale). Disabilitare la mappatura prima di procedere al posizionamento a STEP per rilevare le correzioni con il laser.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0020">
+      <Descrizione l="1" Name="CORREZ.ENCODER IM">Moltiplicatore del fattore di correzione encoder. Da utilizzare, in abbinamento con il parametro '21', per stabilire il numero di impulsi encoder necessari per ottenere l'unità di misura scelta. Esempio: con 4000 impulsi encoder si esegue uno spostamento di 100.0 mm. Si inserisce il valore 4000 nel parametro '20' e il valore '1000' nel parametro '21', il risultato sarà 4000:4 = 1000. Scegliendo un decimale di visualizzazione nel parametro '1' si otterrà la visualizzazione del dato 100.0. Nota: il GS-DSA esegue sempre una moltiplicazione interna x4 degli impulsi encoder, quindi un encoder 100 imp. a giro è in realtà da 400 imp. a giro.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0021">
+      <Descrizione l="1" Name="CORREZ.ENCODER MI">Valore dello spostamento reale, in unità di misura scelto, del fattore correttivo.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0022">
+      <Descrizione l="1" Name="TIPO MAPPAT. 0/1">Non utilizzato.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0023">
+      <Descrizione l="1" Name="Q.A ZERO TAST.INT">Non utilizzato.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0024">
+      <Descrizione l="1" Name="Q.A ZERO TAST.EST">Non utilizzato.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0025">
+      <Descrizione l="1" Name="Q.TA 2 POS.ZERO A">Non utilizzato.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0026">
+      <Descrizione l="1" Name="CONTR.SPAZIO 0=NO">Se uguale a 0, anello di spazio aperto, quindi nessuna correzione degli errori di movimento.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0027">
+      <Descrizione l="1" Name="SENSO RICER. ZERO">Direzione di marcia per la ricerca del fine corsa di zero.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0028">
+      <Descrizione l="1" Name="TIPO DI ZERO 0..4">Con 0 non effettua la ricerca del fine corsa ma scrive nel contatore il dato del parametro '02'. Con 1 effettua la ricerca del fine corsa e della tacca di zero. Con 2 esegue l'azzeramento a battuta meccanica.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0029">
+      <Descrizione l="1" Name="ABIL.RITENUTA 0=N">Quest parametro definisce se mantenere il motore abilitato anche a posizione raggiunta (asse vivo) oppure se disabilitarlo ed eventualmente frenare. Con 1 rimane abilitato in tutte le funzioni di movimento (automatico, manuale, semiautomatico), con 0 si disabilita ed attiva la procedura di freno/SFRENO.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0030">
+      <Descrizione l="1" Name="POTENZIOMETRO">Definisce l'utilizzo di eventuali potenziometri collegati sugli ingressi analogici per la regolazione della velocità degli assi. Con 0 vengono esclusi i potenziometri, con 1 gli assi sono influenzati dal potenziometro collegato al primo canale, con 2 l'asse X sarà interessato dal primo e l'asse Y dal secondo.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0031">
+      <Descrizione l="1" Name="Mill. = 0, Poll = 1">Unità di misura utilizzata.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0032">
+      <Descrizione l="1" Name="SIMULATORE 0=NO">Se uguale ad 1 il valore del contatore encoder è simulato, quindi l'asse non si muove ma il conteggio della quota viene completato in simulazione. Da utilizzare sempre a 0 tranne che per test del software in assenza della meccanica.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0033">
+      <Descrizione l="1" Name="CALCOLO KVS 1=NO">Definisce se il C.N. si calcola automaticamente il fondo scala del DAC (uscita massima del riferimento solitamente uguale a 9V +/- 5%). Con 0 il calcolo avviene automaticamente, con 1 il dato deve essere introdotto manualmente per ottenere valori diversi da 9V. Normalmente questo parametro si setta a 0.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0034">
+      <Descrizione l="1" Name="POS.DOPO ZERO AS."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0035">
+      <Descrizione l="1" Name="Q.TA RALL.ZER.BAT"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0036">
+      <Descrizione l="1" Name="Q.TA ZERO BATTUTA"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0037">
+      <Descrizione l="1" Name="COPIA par. 7"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0038">
+      <Descrizione l="1" Name="CORR.MAX IN Z.BAT"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0039">
+      <Descrizione l="1" Name="INTERV.I2T A BATTUTA"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0040">
+      <Descrizione l="1" Name="RIFERIMENTO MAN."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0041">
+      <Descrizione l="1" Name="CORRENTE MAX">Limite di corrente applicato al motore. Normalmente il valore è uguale al doppio della corrente nominale del motore stesso, ma è comunque riducibile in funzione di particolari esigenze.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0042">
+      <Descrizione l="1" Name="INT.CORRENTE">Integratore di corrente.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0043">
+      <Descrizione l="1" Name="PROP.VELOCITA'">Proporzionale di velocità.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0044">
+      <Descrizione l="1" Name="INT.VELOCITA'">Integratore di velocità.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0045">
+      <Descrizione l="1" Name="DER.VELOCITA'">Derivatore di velocità.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0046">
+      <Descrizione l="1" Name="PROP.CORRENTE">Proporzionale di corrente.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0047">
+      <Descrizione l="1" Name="GIRI MOTORE">Velocità motore in giri/minuto. Non utilizzato in questa applicazione.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0048">
+      <Descrizione l="1" Name="IMP. X GIRO">Impulsi encoder per giro (dato di targa dell'encoder).</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0049">
+      <Descrizione l="1" Name="KDV">Derivatore di velocità.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0050">
+      <Descrizione l="1" Name="TEMPO INT TKO">Ritardo su intervento allarme encoder.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+  </ASSE>
+  <PLC>
+    <Value Id="0001">
+      <Descrizione l="1" Name="TIMER 1">Non usato.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0002">
+      <Descrizione l="1" Name="TEMPO DI OUT MAPP.">Tempo di sosta tra un passo e l'altro nella funzione di posizionamento della funzione mappatura.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0003">
+      <Descrizione l="1" Name="TEMPO FRENATURA">Tempo di attesa tra l'attivazione del freno e la disabilitazione dell'asse.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0004">
+      <Descrizione l="1" Name="TEMPO SFRENATURA">Tempo di attesa tra l'abilitazione dello sfreno e il movimento dell'asse.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0005">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0006">
+      <Descrizione l="1" Name="TEMPO TASTATURA"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0007">
+      <Descrizione l="1" Name="RIT.1 LETT.INTERN."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0008">
+      <Descrizione l="1" Name="RIT.TRA LETT.INT."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0009">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0010">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0011">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0012">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0013">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0014">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0015">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0016">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0017">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0018">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0019">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0020">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0021">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0022">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0023">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0024">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0025">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0026">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0027">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0028">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0029">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0030">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0031">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0032">
+      <Descrizione l="1" Name="Timer">Timer.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0033">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0034">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0035">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0036">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0037">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0038">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0039">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0040">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0041">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0042">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0043">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0044">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0045">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0046">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0047">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0048">
+      <Descrizione l="1" Name="Contatore">Contatore.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0049">
+      <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0050">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0051">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0052">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0053">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0054">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0055">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0056">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0057">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0058">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0059">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0060">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0061">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0062">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0063">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0064">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0065">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0066">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0067">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0068">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0069">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0070">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0071">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0072">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0073">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0074">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0075">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0076">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0077">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0078">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0079">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0080">
+     <Descrizione l="1" Name="Monostabile">Monostabile.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value> 
+  </PLC>
+  <MACCHINA>
+    <Value Id="0001">
+      <Descrizione l="1" Name="Lingua">Permette di scegliere, se previsto dal programma, la lingua desiderata per la visualizzazione dei messaggi.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0002">
+      <Descrizione l="1" Name="Parametro 2"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0003">
+      <Descrizione l="1" Name="Tast. da PC"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0004">
+      <Descrizione l="1" Name="Collegamento a stamp."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0005">
+      <Descrizione l="1" Name="Intest. etichette"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0006">
+      <Descrizione l="1" Name="Stat. a USB"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0007">
+      <Descrizione l="1" Name="N. ripetizioni mappat.">Eseguito il ciclo di posizionamento dei passi di mappatura n. volte come settato nel parametro. Di questo dato se ne tiene conto solo se il param. di mappatura è disabilitato. In caso di mappatura attiva il ciclo di posizionamenti si ripete fino a quando l'operatore non comanda l'uscita.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0008">
+      <Descrizione l="1" Name="OffSet di mappat.">Quota dell'ulteriore passo eseguito nel ciclo di mappatura quando si incrementa.</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0009">
+      <Descrizione l="1" Name="OffSet Pos. Esterno">Valore aggiunto alla quota impostata nella funzione "POSIZ. ESTERNO".</Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0010">
+      <Descrizione l="1" Name="Attivo p.q. zero"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0011">
+      <Descrizione l="1" Name="TAR_AL/MISUR."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0012">
+      <Descrizione l="1" Name="TAST.LIN/PUNT=0/1"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0013">
+      <Descrizione l="1" Name="SCOSTAM.DIAM.EST."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0014">
+      <Descrizione l="1" Name="PRE_RAL.ZERO EST."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0015">
+      <Descrizione l="1" Name="N.TAST.RE SIST.ES"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0016">
+      <Descrizione l="1" Name="+COPPIA TAST.EST."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0017">
+      <Descrizione l="1" Name="DIAM.TEST ZERO IN"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0018">
+      <Descrizione l="1" Name="DIAM.TEST ZERO ES"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0019">
+      <Descrizione l="1" Name="F.C.MAX TAST.INT."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0020">
+      <Descrizione l="1" Name="F.C.MIN TAST.INT."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0021">
+      <Descrizione l="1" Name="F.C.MAX TAST.EST."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0022">
+      <Descrizione l="1" Name="F.C.MIN TAST.EST."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0023">
+      <Descrizione l="1" Name="n.LETT.x PUNTO ES"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0024">
+      <Descrizione l="1" Name="VEL.BATT.TAST.EST"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0025">
+      <Descrizione l="1" Name="COPPIA BATT.ESTER"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0026">
+      <Descrizione l="1" Name="SCOSTAM.TRA ESTER"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0027">
+      <Descrizione l="1" Name="SCOSTAM.DIAM.INT."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0028">
+      <Descrizione l="1" Name="PRE_RAL.ZERO INT."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0029">
+      <Descrizione l="1" Name="N.TAST.RE SIST.IN"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0030">
+      <Descrizione l="1" Name="+COPPIA TAST.INT."></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0031">
+      <Descrizione l="1" Name="n.LETT.x PUNTO IN"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0032">
+      <Descrizione l="1" Name="VEL.BATT.TAST.INT"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0033">
+      <Descrizione l="1" Name="COPPIA BATT.INTER"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0034">
+      <Descrizione l="1" Name="SCOSTAM.TRA INTER"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0035">
+      <Descrizione l="1" Name="VEL.BAT.ASSES.INT"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0036">
+      <Descrizione l="1" Name="N.ESCLUSI TAS.INT"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0037">
+      <Descrizione l="1" Name="Q.ZERO T.3 PUNTE"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0038">
+      <Descrizione l="1" Name="F.C.MAX T.3 PUNTE"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0039">
+      <Descrizione l="1" Name="F.C.MIN T.3 PUNTE"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0040">
+      <Descrizione l="1" Name="RAGGIO PUNTA FISS"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0041">
+      <Descrizione l="1" Name="DIST.PUNTA/CENTRO"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+    <Value Id="0042">
+      <Descrizione l="1" Name="Q.INTERS.DIM/PUNT"></Descrizione>
+      <Descrizione l="2" Name=""></Descrizione>
+      <Descrizione l="3" Name=""></Descrizione>
+      <Descrizione l="4" Name=""></Descrizione>
+      <Descrizione l="5" Name=""></Descrizione>
+    </Value>
+  </MACCHINA> 
+</PAR_TEXT>

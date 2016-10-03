@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<strings>
+  <label name="alarm_0">ERR.1 I2T AZIONAM. 1</label>
+  <label name="alarm_1">ERR.2 I2T AZIONAM. 2</label>
+  <label name="alarm_2">ERR.3 I>IMAX AZIO.1 </label>
+  <label name="alarm_3">ERR.4 I>IMAX AZIO.2</label>
+  <label name="alarm_4">ERR.5 FRENO/SFRENO  </label>
+  <label name="alarm_5">ERR.6 ADC FUORI VAL.</label>
+  <label name="alarm_6">ERRORE 7</label>
+  <label name="alarm_7">********************</label>
+
+  <label name="alarm_8">ERRORE 9</label>
+  <label name="alarm_9">ERRORE 10</label>
+  <label name="alarm_10">ERRORE 11</label>
+  <label name="alarm_11">ERRORE 12</label>
+  <label name="alarm_12">ERRORE 13</label>
+  <label name="alarm_13">ERRORE 14</label>
+  <label name="alarm_14">ERRORE 15</label>
+  <label name="alarm_15">********************</label>
+
+  <label name="alarm_16">CARICARE BATTERIA 1 </label>
+  <label name="alarm_17">CARICARE BATTERIA 2 </label>
+  <label name="alarm_18">CARICARE BATTERIE</label>
+  <label name="alarm_19">ATTESA ACCENSIONE</label>
+  <label name="alarm_20">E M E R G E N Z A !</label>
+  <label name="alarm_21">BATTERIA SCARICA !!</label>
+  <label name="alarm_22">COLLEGAM.A RETE ELET</label>
+  <label name="alarm_23">********************</label>
+
+  <label name="alarm_24">PINZA APERTA</label>
+  <label name="alarm_25">LETTO NON PRESENTE</label>
+  <label name="alarm_26">MESSAGGIO 24</label>
+  <label name="alarm_27">MESSAGGIO 25</label>
+  <label name="alarm_28">MESSAGGIO 26</label>
+  <label name="alarm_29">MESSAGGIO 27</label>
+  <label name="alarm_30">MESSAGGIO 28</label>
+  <label name="alarm_31">********************</label>
+    
+</strings>
+
+
+<!--
+
+            DC.W  1  "ERR.1 I2T AZIONAM. 1"    ;1  1
+            DC.W  2  "ERR.2 I2T AZIONAM. 2"    ;2  2
+            DC.W  3  "ERR.3 I>IMAX AZIO.1 "    ;3  4
+            DC.W  4  "ERR.4 I>IMAX AZIO.2 "    ;4  8
+            DC.W  5  "ERR.5 FRENO/SFRENO  "    ;5  10
+            DC.W  6  "ERR.6 ADC FUORI VAL."    ;6  20
+            DC.W  7  "ERR.7               "    ;7  40
+            DC.W     "********************"    ;8  80 no
+            DC.W  1  "ERR.8               "    ;9  1
+            DC.W  2  "ERR.9               "    ;10  2
+            DC.W  3  "ERR.10              "    ;11 4
+            DC.W  4  "ERR.11              "    ;12 8
+            DC.W  5  "ERR.12              "    ;13 10 
+            DC.W  6  "ERR.13              "    ;14 20
+            DC.W  7  "ERR.14              "    ;15 40
+            DC.W     "********************"    ;16 80 no
+            DC.W  1  "ERR.15              "    ;17 1 
+            DC.W  2  "ERR.16              "    ;18 2  
+            DC.W  3  "CARICARE BATTERIA 1 "    ;19 4
+            DC.W  4  "CARICARE BATTERIA 2 "    ;20 8
+            DC.W  5  "CARICARE BATTERIE   "    ;21 10
+            DC.W  6  "ATTESA ACCENSIONE   "    ;22 20
+            DC.W  7  "E M E R G E N Z A ! "    ;23 40
+            DC.W     "********************"    ;24 80 no
+            DC.W  1  "BATTERIA SCARICA !! "    ;25 1
+            DC.W  2  "COLLEGAM.A RETE ELET"    ;26 2
+            DC.W  3  "                    "    ;27 4
+            DC.W  4  "PINZA APERTA        "    ;28 8
+            DC.W  5  "LETTO NON PRESENTE  "    ;29 10
+            DC.W  6  "                    "    ;30 20
+            DC.W  7  "                    "    ;31 40
+            DC.W     "********************"    ;32 80 no 
+
+-->

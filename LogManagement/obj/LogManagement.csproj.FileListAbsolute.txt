@@ -1,0 +1,10 @@
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\bin\Release\LogManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\bin\Release\LogManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\obj\Release\LogManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\obj\Release\LogManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\bin\Debug\LogManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\bin\Debug\LogManagement.pdb
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\obj\Debug\LogManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\LogManagement\obj\Debug\LogManagement.pdb

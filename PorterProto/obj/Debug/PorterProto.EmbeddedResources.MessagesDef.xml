@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MESSAGES>
+  <MSG id="0" Priority="255" MessageLevel="0" Resource="alarm_6"/>
+  <MSG id="1" Priority="254" MessageLevel="0" Resource="alarm_5"/>
+  <MSG id="2" Priority="253" MessageLevel="0" Resource="alarm_4"/>
+  <MSG id="3" Priority="252" MessageLevel="0" Resource="alarm_3"/>
+  <MSG id="4" Priority="251" MessageLevel="0" Resource="alarm_2"/>
+  <MSG id="5" Priority="250" MessageLevel="0" Resource="alarm_1"/>
+  <MSG id="6" Priority="249" MessageLevel="0" Resource="alarm_0"/>  
+  
+  <MSG id="7" Priority="247" MessageLevel="0" Resource="alarm_14"/>
+  <MSG id="8" Priority="246" MessageLevel="0" Resource="alarm_13"/>
+  <MSG id="9" Priority="245" MessageLevel="0" Resource="alarm_12"/>
+  <MSG id="10" Priority="244" MessageLevel="0" Resource="alarm_11"/>
+  <MSG id="11" Priority="243" MessageLevel="0" Resource="alarm_10"/>
+  <MSG id="12" Priority="242" MessageLevel="0" Resource="alarm_9"/>
+  <MSG id="13" Priority="100" MessageLevel="0" Resource="alarm_8"/> 
+
+  <MSG id="14" Priority="101" MessageLevel="0" Resource="alarm_22"/>
+  <MSG id="15" Priority="150" MessageLevel="0" Resource="alarm_21"/>
+  <MSG id="16" Priority="256" MessageLevel="0" Resource="alarm_20"/>
+  <MSG id="17" Priority="102" MessageLevel="0" Resource="alarm_19"/>
+  <MSG id="18" Priority="103" MessageLevel="0" Resource="alarm_18"/>
+  <MSG id="19" Priority="151" MessageLevel="0" Resource="alarm_17"/>
+  <MSG id="20" Priority="0" MessageLevel="0" Resource="alarm_16"/> 
+
+  <MSG id="21" Priority="2" MessageLevel="0" Resource="alarm_30"/>
+  <MSG id="22" Priority="3" MessageLevel="0" Resource="alarm_29"/>
+  <MSG id="23" Priority="4" MessageLevel="0" Resource="alarm_28"/>
+  <MSG id="24" Priority="5" MessageLevel="0" Resource="alarm_27"/>
+  <MSG id="25" Priority="4" MessageLevel="0" Resource="alarm_26"/>
+  <MSG id="26" Priority="5" MessageLevel="0" Resource="alarm_25"/>
+  <MSG id="27" Priority="4" MessageLevel="0" Resource="alarm_24"/> 
+</MESSAGES>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PARS_DEF NumAssi="4" ParAsseCount="20" ParMaccCount="20" ParTimerCount="6" ParContCount="6" ParMonosCount="6">
+  <PAR_LIST Tipo="1" Id="0" Name ="ASSE 1">
+    <PAR Name="1) IMP METRO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="2) RIT. DISA" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="3) V.L. AVA." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="4) V.MX AVA." Min="0" Max="65535" active="true">Velocità MASSIMA in AVANTI.</PAR>
+    <PAR Name="5) V.MX CUR." Min="0" Max="65535" active="true">Velocità MASSIMA in CURVA.</PAR>
+    <PAR Name="6) V. ARRET." Min="0" Max="65535" active="true">Velocità durante l'arretramento.</PAR>
+    <PAR Name="7) V.MN TER." Min="0" Max="65535" active="true">Velocità MANUALE term.</PAR>
+    <PAR Name="8) GRAD. ACC" Min="0" Max="65535" active="true">Gradino Accelerazione/decelerazione.</PAR>
+    <PAR Name="9) GRAD. DEC" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="10)V.ARR.1M." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="11)  KRXI   " Min="0" Max="65535" active="true">KRXI.</PAR>
+    <PAR Name="12)BIL. ARM." Min="0" Max="65535" active="true">Bilanciamento armatura.</PAR>
+    <PAR Name="13)INT. VEL." Min="0" Max="65535" active="true">Integratore di velocità.</PAR>
+    <PAR Name="14)PRO.CORR." Min="0" Max="65535" active="true">Proporzionale di velocità.</PAR>
+    <PAR Name="15)LIM.CORR." Min="0" Max="65535" active="true">Limite di corrente.</PAR>
+    <PAR Name="16)PRP.CORR." Min="0" Max="65535" active="true">Proporzionale di corrente.</PAR>
+    <PAR Name="17)DER.CORR." Min="0" Max="65535" active="true">Derivatore di corrente.</PAR>
+    <PAR Name="18)INT.CORR." Min="0" Max="65535" active="true">Integratore di corrente.</PAR>
+    <PAR Name="19)CORR.A/I " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="20)BIL.CORR." Min="0" Max="65535" active="true">Bilanciamento corrente.</PAR> 
+  </PAR_LIST>
+  <PAR_LIST Tipo="1" Id="1" Name ="ASSE 2">
+    <PAR Name="Q. ZERO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="F.C. + " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="F.C. - " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="VEL.MAX" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="OFF.COL" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="VEL.MIN" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="V. ZERO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="GR A/D " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="T. ADC " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="T. ADC KO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KRXI     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="INVRIF   " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KINT     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KPROP    " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KCOR     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="PROP.COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="DER. COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="INT. COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+  </PAR_LIST>
+  <PAR_LIST Tipo="1" Id="2" Name ="ASSE 3">
+    <PAR Name="Q. ZERO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="F.C. + " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="F.C. - " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="VEL.MAX" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="OFF.COL" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="VEL.MIN" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="V. ZERO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="GR A/D " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="T. ADC " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="T. ADC KO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KRXI     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="INVRIF   " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KINT     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KPROP    " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KCOR     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="PROP.COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="DER. COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="INT. COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+  </PAR_LIST>
+  <PAR_LIST Tipo="1" Id="3" Name ="ASSE 4">
+    <PAR Name="Q. ZERO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="F.C. + " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="F.C. - " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="VEL.MAX" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="OFF.COL" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="VEL.MIN" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="V. ZERO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="GR A/D " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="T. ADC " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="T. ADC KO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KRXI     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="INVRIF   " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KINT     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KPROP    " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="KCOR     " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="PROP.COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="DER. COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="INT. COR." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="P. AZION " Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+  </PAR_LIST> 
+  <PAR_LIST Tipo="2" Id="0"  Name ="MACCHINA" >
+    <PAR Name="01) ---------" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="02) RANGE SENSO SI STERZO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="03) DIV. STERZO VEL" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="04) MOLT.STERZO VEL" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="05) POSIZIONE RIPOSO STERZO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="06) MIN. POTENZ. VELOC." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="07) MIN. FERMO BATTERIA 1" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="08) MIN. FERMO BATTERIA 2" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="09) VELOCITA' MAX STERZO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="10) VELOCITA' MIN STERZO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="11) MIN. MOTO BATT. 1" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="12) MIN. MOTO BATT. 2" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="13) POS. FERMO POTENZA" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="14) OFFSET MIN. STERZO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="15) STOP INCLINOMETRO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="16) START INCLINOMETRO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="17) INTERVENTO I > IMAX" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="18) VALORE OFF BATTER" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="19) ---------" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="20) ---------" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR> 
+  </PAR_LIST>
+  <PAR_LIST Tipo="3" Id="0" Name ="TIMER">
+    <PAR Name="1) RIT.COMM.OUT A.1" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="2) RIT.ABILITAZIONE" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="3) RIT.SFRENO /MOVIM" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="4) RIT.FRENO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="5) TEMPO OF BUZ 1BAT" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="6) TEMPO ON BUZ 1BAT" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR> 
+  </PAR_LIST>
+  <PAR_LIST Tipo="4" Id="0" Name ="CONTATORI">
+    <PAR Name="1) MOLT.TEMPO RAMPA" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="2) MOLT.KCOR" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="3) DIV.KCOR" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="4) MOLT.OFFS.KCOR" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="5) DIV.OFFS.KCOR" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="6) TEMPO APERTURA P." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+  </PAR_LIST>
+  <PAR_LIST Tipo="5" Id="0"  Name ="MONOSTABILI">
+    <PAR Name="1) TEMPO SALITA PINZ" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="2) RITENUTA TASTO MAN." Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="3) TEMPO OFF LED GIALLO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="4) TEMPO ON LED GIALLO" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="5) TEMPO OF BUZ 2BAT" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+    <PAR Name="6) TEMPO MOV.OF BATT" Min="0" Max="65535" active="true">Non utilizzato dall'applicazione.</PAR>
+  </PAR_LIST>
+</PARS_DEF>

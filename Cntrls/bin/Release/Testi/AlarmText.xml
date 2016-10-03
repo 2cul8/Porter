@@ -1,0 +1,2324 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+  <ALLARM_TEXT>
+  <ALLARM1>
+    <Name>
+      <lang Id="1">AZIONAMENTO  KO !</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM1>
+  <ALLARM2>
+    <Name>
+      <lang Id="1">ZERO ASSE NON EFFETTUATO</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM2>
+  <ALLARM3>
+    <Name>
+      <lang Id="1">ALLARM3</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM3>
+  <ALLARM4>
+    <Name>
+      <lang Id="1">ERRORE INSEGUIMENTO!</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM4>
+  <ALLARM5>
+    <Name>
+      <lang Id="1">ALLARM5</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM5>
+  <ALLARM6>
+    <Name>
+      <lang Id="1">EXTRA CORSA+ ASSE  !</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM6>
+  <ALLARM7>
+    <Name>
+      <lang Id="1">ALLARM7</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM7>
+  <ALLARM8>
+    <Name>
+      <lang Id="1">EXTRA CORSA- ASSE  !</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM8>
+  <ALLARM9>
+    <Name>
+      <lang Id="1">ALLARM9</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM9>
+  <ALLARM10>
+    <Name>
+      <lang Id="1">ERRORE I*I*t ASSE  !</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM10>
+  <ALLARM11>
+    <Name>
+      <lang Id="1">ENCOD. Ko !!</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM11>
+  <ALLARM12>
+    <Name>
+      <lang Id="1">F.C. SOFTW.+ ASSE  !</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM12>
+  <ALLARM13>
+    <Name>
+      <lang Id="1">ALLARM13</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM13>
+  <ALLARM14>
+    <Name>
+      <lang Id="1">F.C. SOFTW.- ASSE  !</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM14>
+  <ALLARM15>
+    <Name>
+      <lang Id="1">ALLARM15</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM15>
+  <ALLARM16>
+    <Name>
+      <lang Id="1"> E M E R G E N Z A !</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM16>
+  <ALLARM17>
+    <Name>
+      <lang Id="1">S T O P  !!!</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM17>
+  <ALLARM18>
+    <Name>
+      <lang Id="1">S T A R T   !!</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM18>
+  <ALLARM19>
+    <Name>
+      <lang Id="1">SOVRATEMPERATURA !!</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM19>
+  <ALLARM20>
+    <Name>
+      <lang Id="1">ALLARM20</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM20>
+  <ALLARM21>
+    <Name>
+      <lang Id="1">ALLARM21</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM21>
+  <ALLARM22>
+    <Name>
+      <lang Id="1">POSIZ. IN CORSO</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM22>
+  <ALLARM23>
+    <Name>
+      <lang Id="1">ALLARM23</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM23>
+  <ALLARM24>
+    <Name>
+      <lang Id="1">ALLARM24</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM24>
+  <ALLARM25>
+    <Name>
+      <lang Id="1">MAIN PROGRAM</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM25>
+  <ALLARM26>
+    <Name>
+      <lang Id="1">ALLARM26</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM26>
+  <ALLARM27>
+    <Name>
+      <lang Id="1">ALLARM27</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM27>
+  <ALLARM28>
+    <Name>
+      <lang Id="1">ALLARM28</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM28>
+  <ALLARM29>
+    <Name>
+      <lang Id="1">ALLARM29</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM29>
+  <ALLARM30>
+    <Name>
+      <lang Id="1">ALLARM30</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM30>
+  <ALLARM31>
+    <Name>
+      <lang Id="1">ALLARM31</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM31>
+  <ALLARM32>
+    <Name>
+      <lang Id="1">ALLARM32</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM32>
+  <ALLARM33>
+    <Name>
+      <lang Id="1">MONTARE TAST.INTERNO</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM33>
+  <ALLARM34>
+    <Name>
+      <lang Id="1">MONTARE TAST.ESTERNO</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM34>
+  <ALLARM35>
+    <Name>
+      <lang Id="1">ENTER PER CONTINUARE</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM35>
+  <ALLARM36>
+    <Name>
+      <lang Id="1">TOGLIERE ADATTATORE </lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM36>
+  <ALLARM37>
+    <Name>
+      <lang Id="1">1=POSIZIONE LATERALE</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM37>
+  <ALLARM38>
+    <Name>
+      <lang Id="1">2=POSIZIONE CENTRALE</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM38>
+  <ALLARM39>
+    <Name>
+      <lang Id="1">AUTOMATICO ATTIVO</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM39>
+  <ALLARM40>
+    <Name>
+      <lang Id="1">ENTER PER CONTINUARE</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM40>
+  <ALLARM41>
+    <Name>
+      <lang Id="1">ALLARM41</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM41>
+  <ALLARM42>
+    <Name>
+      <lang Id="1">ALLARM42</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM42>
+  <ALLARM43>
+    <Name>
+      <lang Id="1">ALLARM43</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM43>
+  <ALLARM44>
+    <Name>
+      <lang Id="1">ALLARM44</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM44>
+  <ALLARM45>
+    <Name>
+      <lang Id="1">ALLARM45</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM45>
+  <ALLARM46>
+    <Name>
+      <lang Id="1">ALLARM46</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM46>
+  <ALLARM47>
+    <Name>
+      <lang Id="1">ALLARM47</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM47>
+  <ALLARM48>
+    <Name>
+      <lang Id="1">ALLARM48</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM48>
+  <ALLARM49>
+    <Name>
+      <lang Id="1">ALLARM49</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM49>
+  <ALLARM50>
+    <Name>
+      <lang Id="1">ALLARM50</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM50>
+  <ALLARM51>
+    <Name>
+      <lang Id="1">ALLARM51</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM51>
+  <ALLARM52>
+    <Name>
+      <lang Id="1">ALLARM52</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM52>
+  <ALLARM53>
+    <Name>
+      <lang Id="1">ALLARM53</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM53>
+  <ALLARM54>
+    <Name>
+      <lang Id="1">ALLARM54</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM54>
+  <ALLARM55>
+    <Name>
+      <lang Id="1">ALLARM55</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM55>
+  <ALLARM56>
+    <Name>
+      <lang Id="1">ALLARM56</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM56>
+  <ALLARM57>
+    <Name>
+      <lang Id="1">ALLARM57</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM57>
+  <ALLARM58>
+    <Name>
+      <lang Id="1">ALLARM58</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM58>
+  <ALLARM59>
+    <Name>
+      <lang Id="1">ALLARM59</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM59>
+  <ALLARM60>
+    <Name>
+      <lang Id="1">ALLARM60</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM60>
+  <ALLARM61>
+    <Name>
+      <lang Id="1">ALLARM61</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM61>
+  <ALLARM62>
+    <Name>
+      <lang Id="1">ALLARM62</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM62>
+  <ALLARM63>
+    <Name>
+      <lang Id="1">ALLARM63</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM63>
+  <ALLARM64>
+    <Name>
+      <lang Id="1">ALLARM64</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM64>
+  <ALLARM65>
+    <Name>
+      <lang Id="1">ALLARM65</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM65>
+  <ALLARM66>
+    <Name>
+      <lang Id="1">ALLARM66</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM66>
+  <ALLARM67>
+    <Name>
+      <lang Id="1">ALLARM67</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM67>
+  <ALLARM68>
+    <Name>
+      <lang Id="1">ALLARM68</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM68>
+  <ALLARM69>
+    <Name>
+      <lang Id="1">ALLARM69</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM69>
+  <ALLARM70>
+    <Name>
+      <lang Id="1">ALLARM70</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM70>
+  <ALLARM71>
+    <Name>
+      <lang Id="1">ALLARM71</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM71>
+  <ALLARM72>
+    <Name>
+      <lang Id="1">ALLARM72</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM72>
+  <ALLARM73>
+    <Name>
+      <lang Id="1">ALLARM73</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM73>
+  <ALLARM74>
+    <Name>
+      <lang Id="1">ATTESA START</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM74>
+  <ALLARM75>
+    <Name>
+      <lang Id="1">ALLARM75</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM75>
+  <ALLARM76>
+    <Name>
+      <lang Id="1">ALLARM76</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM76>
+  <ALLARM77>
+    <Name>
+      <lang Id="1">ALLARM77</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM77>
+  <ALLARM78>
+    <Name>
+      <lang Id="1">ALLARM78</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM78>
+  <ALLARM79>
+    <Name>
+      <lang Id="1">ALLARM79</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM79>
+  <ALLARM80>
+    <Name>
+      <lang Id="1">ALLARM80</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM80>
+  <ALLARM81>
+    <Name>
+      <lang Id="1">ALLARM81</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM81>
+  <ALLARM82>
+    <Name>
+      <lang Id="1">ALLARM82</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM82>
+  <ALLARM83>
+    <Name>
+      <lang Id="1">ALLARM83</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM83>
+  <ALLARM84>
+    <Name>
+      <lang Id="1">ALLARM84</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM84>
+  <ALLARM85>
+    <Name>
+      <lang Id="1">ALLARM85</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM85>
+  <ALLARM86>
+    <Name>
+      <lang Id="1">ALLARM86</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM86>
+  <ALLARM87>
+    <Name>
+      <lang Id="1">ALLARM87</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM87>
+  <ALLARM88>
+    <Name>
+      <lang Id="1">ALLARM88</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM88>
+  <ALLARM89>
+    <Name>
+      <lang Id="1">ALLARM89</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM89>
+  <ALLARM90>
+    <Name>
+      <lang Id="1">ALLARM90</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM90>
+  <ALLARM91>
+    <Name>
+      <lang Id="1">ALLARM91</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM91>
+  <ALLARM92>
+    <Name>
+      <lang Id="1">ALLARM92</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM92>
+  <ALLARM93>
+    <Name>
+      <lang Id="1">ALLARM93</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM93>
+  <ALLARM94>
+    <Name>
+      <lang Id="1">ALLARM94</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM94>
+  <ALLARM95>
+    <Name>
+      <lang Id="1">ALLARM95</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM95>
+  <ALLARM96>
+    <Name>
+      <lang Id="1">ALLARM96</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM96>
+  <ALLARM97>
+    <Name>
+      <lang Id="1">ALLARM97</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM97>
+  <ALLARM98>
+    <Name>
+      <lang Id="1">ALLARM98</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM98>
+  <ALLARM99>
+    <Name>
+      <lang Id="1">ALLARM99</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM99>
+  <ALLARM100>
+    <Name>
+      <lang Id="1">ALLARM100</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM100>
+  <ALLARM101>
+    <Name>
+      <lang Id="1">ALLARM101</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM101>
+  <ALLARM102>
+    <Name>
+      <lang Id="1">ALLARM102</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM102>
+  <ALLARM103>
+    <Name>
+      <lang Id="1">ALLARM103</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM103>
+  <ALLARM104>
+    <Name>
+      <lang Id="1">ALLARM104</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM104>
+  <ALLARM105>
+    <Name>
+      <lang Id="1">ALLARM105</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM105>
+  <ALLARM106>
+    <Name>
+      <lang Id="1">ALLARM106</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM106>
+  <ALLARM107>
+    <Name>
+      <lang Id="1">ALLARM107</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM107>
+  <ALLARM108>
+    <Name>
+      <lang Id="1">ALLARM108</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM108>
+  <ALLARM109>
+    <Name>
+      <lang Id="1">ALLARM109</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM109>
+  <ALLARM110>
+    <Name>
+      <lang Id="1">ALLARM110</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM110>
+  <ALLARM111>
+    <Name>
+      <lang Id="1">ALLARM111</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM111>
+  <ALLARM112>
+    <Name>
+      <lang Id="1">ALLARM112</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM112>
+  <ALLARM113>
+    <Name>
+      <lang Id="1">ALLARM113</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM113>
+  <ALLARM114>
+    <Name>
+      <lang Id="1">ALLARM114</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM114>
+  <ALLARM115>
+    <Name>
+      <lang Id="1">ALLARM115</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM115>
+  <ALLARM116>
+    <Name>
+      <lang Id="1">ALLARM116</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM116>
+  <ALLARM117>
+    <Name>
+      <lang Id="1">ALLARM117</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM117>
+  <ALLARM118>
+    <Name>
+      <lang Id="1">ALLARM118</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM118>
+  <ALLARM119>
+    <Name>
+      <lang Id="1">ALLARM119</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM119>
+  <ALLARM120>
+    <Name>
+      <lang Id="1">ALLARM120</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM120>
+  <ALLARM121>
+    <Name>
+      <lang Id="1">ALLARM121</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM121>
+  <ALLARM122>
+    <Name>
+      <lang Id="1">ALLARM122</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM122>
+  <ALLARM123>
+    <Name>
+      <lang Id="1">ALLARM123</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM123>
+  <ALLARM124>
+    <Name>
+      <lang Id="1">ASSE IN STOP</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM124>
+  <ALLARM125>
+    <Name>
+      <lang Id="1">ALLARM125</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM125>
+  <ALLARM126>
+    <Name>
+      <lang Id="1">ALLARM126</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM126>
+  <ALLARM127>
+    <Name>
+      <lang Id="1">ALLARM127</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM127>
+  <ALLARM128>
+    <Name>
+      <lang Id="1">ALLARM128</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM128>
+  <ALLARM129>
+    <Name>
+      <lang Id="1">DISPOSITIVO PRONTO</lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Name>
+    <Descrizione>
+      <lang Id="1"></lang>
+      <lang Id="2"></lang>
+      <lang Id="3"></lang>
+      <lang Id="4"></lang>
+      <lang Id="5"></lang>
+      <lang Id="6"></lang>
+    </Descrizione>
+  </ALLARM129>
+</ALLARM_TEXT>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <language text="Italiano" id="0" string_xml="String.ita.xml" bitmap_flag="ita.bmp"/>
+  <language text="English" id="1" string_xml="String.eng.xml" bitmap_flag="eng.bmp"/>
+  <language text="Español" id="2" string_xml="String.esp.xml" bitmap_flag="esp.bmp"/>
+</Languages>
