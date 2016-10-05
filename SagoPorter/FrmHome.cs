@@ -90,25 +90,25 @@ namespace SagoPorter
         { 
             Bitmap[] statusBarBitmapsOff = new Bitmap[8];
 
-            statusBarBitmapsOff[0] = (Bitmap)Resources.Resources.GetResource("alarm_off.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOff[1] = (Bitmap)Resources.Resources.GetResource("pinze_off.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOff[2] = (Bitmap)Resources.Resources.GetResource("letto_off.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOff[3] = (Bitmap)Resources.Resources.GetResource("right_hand.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOff[4] = (Bitmap)Resources.Resources.GetResource("left_hand.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOff[5] = (Bitmap)Resources.Resources.GetResource("moving_off.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOff[6] = (Bitmap)Resources.Resources.GetResource("free_moving_off.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOff[7] = (Bitmap)Resources.Resources.GetResource("wifi_off.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[0] = (Bitmap)Resources.ResourcesManager.GetResource("alarm_off.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[1] = (Bitmap)Resources.ResourcesManager.GetResource("pinze_off.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[2] = (Bitmap)Resources.ResourcesManager.GetResource("letto_off.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[3] = (Bitmap)Resources.ResourcesManager.GetResource("right_hand.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[4] = (Bitmap)Resources.ResourcesManager.GetResource("left_hand.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[5] = (Bitmap)Resources.ResourcesManager.GetResource("moving_off.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[6] = (Bitmap)Resources.ResourcesManager.GetResource("free_moving_off.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOff[7] = (Bitmap)Resources.ResourcesManager.GetResource("wifi_off.bmp", Resources.ResourceType.Image);
 
             Bitmap[] statusBarBitmapsOn = new Bitmap[8];
 
-            statusBarBitmapsOn[0] = (Bitmap)Resources.Resources.GetResource("alarm_on.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOn[1] = (Bitmap)Resources.Resources.GetResource("pinze_on.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOn[2] = (Bitmap)Resources.Resources.GetResource("letto_on.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOn[3] = (Bitmap)Resources.Resources.GetResource(DeviceStatusFlag.UnaMano ? "right_hand_yellow.bmp" : "right_hand_present.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOn[4] = (Bitmap)Resources.Resources.GetResource(DeviceStatusFlag.UnaMano ? "left_hand_yellow.bmp" : "left_hand_present.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOn[5] = (Bitmap)Resources.Resources.GetResource("moving_on.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOn[6] = (Bitmap)Resources.Resources.GetResource("free_moving_on.bmp", Resources.ResourceType.Image);
-            statusBarBitmapsOn[7] = (Bitmap)Resources.Resources.GetResource("wifi_on.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[0] = (Bitmap)Resources.ResourcesManager.GetResource("alarm_on.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[1] = (Bitmap)Resources.ResourcesManager.GetResource("pinze_on.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[2] = (Bitmap)Resources.ResourcesManager.GetResource("letto_on.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[3] = (Bitmap)Resources.ResourcesManager.GetResource(DeviceStatusFlag.UnaMano ? "right_hand_yellow.bmp" : "right_hand_present.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[4] = (Bitmap)Resources.ResourcesManager.GetResource(DeviceStatusFlag.UnaMano ? "left_hand_yellow.bmp" : "left_hand_present.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[5] = (Bitmap)Resources.ResourcesManager.GetResource("moving_on.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[6] = (Bitmap)Resources.ResourcesManager.GetResource("free_moving_on.bmp", Resources.ResourceType.Image);
+            statusBarBitmapsOn[7] = (Bitmap)Resources.ResourcesManager.GetResource("wifi_on.bmp", Resources.ResourceType.Image);
 
             statusBarCntrl.SetBitmaps(statusBarBitmapsOff, statusBarBitmapsOn);
         }
@@ -396,7 +396,7 @@ namespace SagoPorter
                 foreach (Message msg in allMessages)
                     if (msg.IsActive)
                     {
-                        alarmMessageCntrl.AlarmText = Resources.Resources.GetString(msg.MessageResourceName);
+                        alarmMessageCntrl.AlarmText = Resources.ResourcesManager.GetString(msg.MessageResourceName);
                         alarmMessageCntrl.AlarmLevel = msg.MessageLevel;
 
                         btnAlarms.HeadTextLabel = allMessages.GetActiveMessageCount().ToString();

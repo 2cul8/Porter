@@ -634,7 +634,7 @@ namespace PorterProto
 
         internal DeviceError(string eDesc, Exception eException, int ident)
         {
-            errorDesc = Resources.Resources.GetString(eDesc);
+            errorDesc = Resources.ResourcesManager.GetString(eDesc);
             errorException = eException;
             id = ident;
         }

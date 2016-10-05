@@ -71,3 +71,5 @@ C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\SagoPorter\
 C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\SagoPorter\obj\Debug\SagoPorter.FrmMessages.resources
 C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\SagoPorter\obj\Debug\SagoPorter.FrmLocation.resources
 C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\SagoPorter\bin\Release\Settings.xml
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\SagoPorter\bin\Release\RemoteManagement.dll
+C:\Users\Andrea\Documents\Visual Studio 2005\Projects\TL7\SagoPorter\SagoPorter\bin\Release\RemoteManagement.pdb

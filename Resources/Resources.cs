@@ -18,7 +18,7 @@ namespace Resources
         Image = 1
     }
 
-    public static class Resources
+    public static class ResourcesManager
     {
         private const string BASE_IMAGE_URL = "Resources.Images.";
         private const string STRINGS_BASE_XML_URL = "Resources.Strings.";
@@ -287,7 +287,7 @@ namespace Resources
                 {
                     case SettingOptions.Language: 
                         xDocSettings[SETTINGS_ROOT_NODE][LANGUAGE_SETTINGS_GROUP].Attributes["selected"].Value = value;
-                        Resources.manageLanguageChanged();
+                        ResourcesManager.manageLanguageChanged();
                         break;
 
                     case SettingOptions.RemotingBridePort:

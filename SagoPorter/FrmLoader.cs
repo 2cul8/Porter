@@ -16,6 +16,7 @@ using RfidManager;
 using UserManagement;
 using NetManagement;
 using LogManagement;
+using RemoteManagement;
 
 namespace SagoPorter
 {
@@ -41,7 +42,9 @@ namespace SagoPorter
 #endif 
             loadingStatus = 0;
             Visible = false;
-            Resources.Resources.LoadAllResources();
+            Resources.ResourcesManager.LoadAllResources();
+            RemoteManager.InitManager();
+            RemoteManager.StartRemoting();
             Visible = true;
 
             InitializeComponent();

@@ -48,7 +48,7 @@ namespace Cntrls
             spinnerBitmaps = new Bitmap[SPINNER_BITMAPS_COUNT];  
 
             for (int i = 0; i < SPINNER_BITMAPS_COUNT; i++)
-                spinnerBitmaps[i] = (Bitmap)Resources.Resources.GetResource(spinnerFramesDir + ".frame_" + i.ToString() + ".gif", Resources.ResourceType.Image);
+                spinnerBitmaps[i] = (Bitmap)Resources.ResourcesManager.GetResource(spinnerFramesDir + ".frame_" + i.ToString() + ".gif", Resources.ResourceType.Image);
         }
 
         private void onTmrTick(object sender, EventArgs e)

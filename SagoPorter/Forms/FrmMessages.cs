@@ -18,7 +18,7 @@ namespace SagoPorter
         public FrmMessages()
         {
             InitializeComponent(); 
-            backGroundBitmap = (Bitmap)Resources.Resources.GetResource("background667x400.bmp", Resources.ResourceType.Image); 
+            backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("background667x400.bmp", Resources.ResourceType.Image); 
             Size = new Size(667, 400);
             Location = new Point((Screen.PrimaryScreen.WorkingArea.Width - Width) / 2, (Screen.PrimaryScreen.WorkingArea.Height - Height) / 2); 
         }
@@ -37,7 +37,7 @@ namespace SagoPorter
         private void refreshShowedMessage()
         {
             if (messagesTabCntrl1.SelectedItem < messageList.Count)
-                lblSelectedMessageText.TextLabel = (string)Resources.Resources.GetResource(messageList[messagesTabCntrl1.SelectedItem].MessageResourceName, Resources.ResourceType.String);
+                lblSelectedMessageText.TextLabel = (string)Resources.ResourcesManager.GetResource(messageList[messagesTabCntrl1.SelectedItem].MessageResourceName, Resources.ResourceType.String);
             else
                 lblSelectedMessageText.TextLabel = "----";
         }

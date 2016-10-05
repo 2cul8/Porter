@@ -131,8 +131,8 @@ namespace Cntrls
 
         private void loadBitmaps()
         {
-            backGroundBitmap = (Bitmap)Resources.Resources.GetResource(backGroundResourceName, ResourceType.Image);
-            bottomLineBitmap = (Bitmap)Resources.Resources.GetResource(bottomlineResourceName, ResourceType.Image);
+            backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource(backGroundResourceName, ResourceType.Image);
+            bottomLineBitmap = (Bitmap)Resources.ResourcesManager.GetResource(bottomlineResourceName, ResourceType.Image);
         }
 
         protected override void OnResize(EventArgs e)

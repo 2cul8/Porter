@@ -87,12 +87,12 @@ namespace PorterProto
 
             if (!File.Exists(parsFile))
             { 
-                DeviceEvents.invokeDeviceMessageEvent(Resources.Resources.GetString("ParManager.Messages.1"));
+                DeviceEvents.invokeDeviceMessageEvent(Resources.ResourcesManager.GetString("ParManager.Messages.1"));
                 return loadParFile(Assembly.GetExecutingAssembly().GetManifestResourceStream(Global.PARS_DEFAULT_ASSEMBLY_NAME));
             }
             else 
             {
-                DeviceEvents.invokeDeviceMessageEvent(string.Format(Resources.Resources.GetString("ParManager.Messages.2"), Path.GetFileName(parsFile)));
+                DeviceEvents.invokeDeviceMessageEvent(string.Format(Resources.ResourcesManager.GetString("ParManager.Messages.2"), Path.GetFileName(parsFile)));
                 if (!loadParFile(File.OpenRead(parsFile)))
                 {
                     DeviceEvents.invokeDeviceErrorEvent(new DeviceError("DeviceError.1", null, 252));
@@ -162,7 +162,7 @@ namespace PorterProto
             }
 
             localParsDataBase = tempDataBase;
-            DeviceEvents.invokeDeviceMessageEvent(Resources.Resources.GetString("ParManager.Messages.5"));
+            DeviceEvents.invokeDeviceMessageEvent(Resources.ResourcesManager.GetString("ParManager.Messages.5"));
             DeviceEvents.invokeLocalParsLoaded();
             return true;
         }
@@ -552,8 +552,8 @@ namespace PorterProto
         {
             Resources.Settings.SettingChanged += onSettingChanged;
 
-            parName = Resources.Resources.GetString(parNameResource = name);
-            parDesc = Resources.Resources.GetString(parDescResource = desc);
+            parName = Resources.ResourcesManager.GetString(parNameResource = name);
+            parDesc = Resources.ResourcesManager.GetString(parDescResource = desc);
             parMinValue = minValue;
             parMaxValue = maxValue;
             parValue = value;
@@ -586,8 +586,8 @@ namespace PorterProto
         {
             if (e.ChangedOption == Resources.SettingOptions.Language)
             {
-                parName = Resources.Resources.GetString(parNameResource);
-                parDesc = Resources.Resources.GetString(parDescResource);
+                parName = Resources.ResourcesManager.GetString(parNameResource);
+                parDesc = Resources.ResourcesManager.GetString(parDescResource);
             }
         }
     }

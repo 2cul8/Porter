@@ -47,8 +47,8 @@ namespace Cntrls
         {
             InitializeComponent();
 
-            backGround = (Bitmap)Resources.Resources.GetResource("label352x162.bmp", ResourceType.Image); 
-            separatorLine = (Bitmap)Resources.Resources.GetResource("line336x3.bmp", ResourceType.Image);
+            backGround = (Bitmap)Resources.ResourcesManager.GetResource("label352x162.bmp", ResourceType.Image); 
+            separatorLine = (Bitmap)Resources.ResourcesManager.GetResource("line336x3.bmp", ResourceType.Image);
         }
 
         private void manageLogRequested(object sender, EventArgs e)

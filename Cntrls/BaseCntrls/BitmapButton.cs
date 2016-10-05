@@ -54,26 +54,26 @@ namespace Cntrls.BaseCntrls
 
         private void LoadBitamps()
         { 
-            bmpButtonNormal = (Bitmap)Resources.Resources.GetResource(resourceNameBase + ".bmp", ResourceType.Image); 
-            bmpButtonPressed = (Bitmap)Resources.Resources.GetResource(resourceNameBase + BUTTON_PRESSED_ID + ".bmp", ResourceType.Image);
-            bmpButtonBlinked = (Bitmap)Resources.Resources.GetResource(resourceNameBase + BUTTON_BLINKED_ID + ".bmp", ResourceType.Image);
-            bmpButtonSelected = (Bitmap)Resources.Resources.GetResource(resourceNameBase + BUTTON_SELECTED_ID + ".bmp", ResourceType.Image);
-            bmpButtonDisabled = (Bitmap)Resources.Resources.GetResource(resourceNameBase + BUTTON_DISABLED_ID + ".bmp", ResourceType.Image);
+            bmpButtonNormal = (Bitmap)Resources.ResourcesManager.GetResource(resourceNameBase + ".bmp", ResourceType.Image); 
+            bmpButtonPressed = (Bitmap)Resources.ResourcesManager.GetResource(resourceNameBase + BUTTON_PRESSED_ID + ".bmp", ResourceType.Image);
+            bmpButtonBlinked = (Bitmap)Resources.ResourcesManager.GetResource(resourceNameBase + BUTTON_BLINKED_ID + ".bmp", ResourceType.Image);
+            bmpButtonSelected = (Bitmap)Resources.ResourcesManager.GetResource(resourceNameBase + BUTTON_SELECTED_ID + ".bmp", ResourceType.Image);
+            bmpButtonDisabled = (Bitmap)Resources.ResourcesManager.GetResource(resourceNameBase + BUTTON_DISABLED_ID + ".bmp", ResourceType.Image);
 
             if (bmpButtonNormal == null) 
-                bmpButtonNormal = (Bitmap)Resources.Resources.GetResource(NO_IMAGE_BMP, ResourceType.Image); 
+                bmpButtonNormal = (Bitmap)Resources.ResourcesManager.GetResource(NO_IMAGE_BMP, ResourceType.Image); 
 
             if (bmpButtonPressed == null)
-                bmpButtonPressed = (Bitmap)Resources.Resources.GetResource(NO_IMAGE_BMP, ResourceType.Image);
+                bmpButtonPressed = (Bitmap)Resources.ResourcesManager.GetResource(NO_IMAGE_BMP, ResourceType.Image);
 
             if (bmpButtonBlinked == null)
-                bmpButtonBlinked = (Bitmap)Resources.Resources.GetResource(NO_IMAGE_BMP, ResourceType.Image);
+                bmpButtonBlinked = (Bitmap)Resources.ResourcesManager.GetResource(NO_IMAGE_BMP, ResourceType.Image);
 
             if (bmpButtonSelected == null)
-                bmpButtonSelected = (Bitmap)Resources.Resources.GetResource(NO_IMAGE_BMP, ResourceType.Image);
+                bmpButtonSelected = (Bitmap)Resources.ResourcesManager.GetResource(NO_IMAGE_BMP, ResourceType.Image);
 
             if (bmpButtonDisabled == null)
-                bmpButtonDisabled = (Bitmap)Resources.Resources.GetResource(NO_IMAGE_BMP, ResourceType.Image);
+                bmpButtonDisabled = (Bitmap)Resources.ResourcesManager.GetResource(NO_IMAGE_BMP, ResourceType.Image);
         } 
     }
 }

@@ -143,9 +143,9 @@ namespace Cntrls
 
         private void loadBitmaps()
         {
-            backGroundBitmap = (Bitmap)Resources.Resources.GetResource(backGroundResource, ResourceType.Image);
-            verLineBitmap = (Bitmap)Resources.Resources.GetResource(verLineResource, ResourceType.Image);
-            orzLineBitmap = (Bitmap)Resources.Resources.GetResource(orzLineResource, ResourceType.Image);
+            backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource(backGroundResource, ResourceType.Image);
+            verLineBitmap = (Bitmap)Resources.ResourcesManager.GetResource(verLineResource, ResourceType.Image);
+            orzLineBitmap = (Bitmap)Resources.ResourcesManager.GetResource(orzLineResource, ResourceType.Image);
 
             Invalidate();
         }

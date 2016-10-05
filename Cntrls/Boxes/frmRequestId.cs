@@ -20,7 +20,7 @@ namespace Cntrls.Boxes
         public frmRequestId()
         {
             if (backGroundBitmap == null)
-                backGroundBitmap = (Bitmap)Resources.Resources.GetResource("backGround600x360.bmp", Resources.ResourceType.Image);
+                backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("backGround600x360.bmp", Resources.ResourceType.Image);
 
             InitializeComponent();
 

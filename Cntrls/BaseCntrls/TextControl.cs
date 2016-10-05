@@ -73,7 +73,7 @@ namespace Cntrls.BaseCntrls
             if (string.IsNullOrEmpty(labelName))
                 return string.Empty;
 
-            string resourceString = (string)Resources.Resources.GetResource(labelName, ResourceType.String);
+            string resourceString = (string)Resources.ResourcesManager.GetResource(labelName, ResourceType.String);
 
             resourceString = string.IsNullOrEmpty(resourceString) ? labelName : resourceString; 
             string resultText = (formatArgs == null ? resourceString : string.Format(resourceString, formatArgs)); 

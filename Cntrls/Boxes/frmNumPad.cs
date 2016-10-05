@@ -26,7 +26,7 @@ namespace Cntrls.Boxes
         public frmNumPad()
         {
             if (backGroundBitmap == null)
-                backGroundBitmap = (Bitmap)Resources.Resources.GetResource("dialogNumPadBackGround.bmp", Resources.ResourceType.Image);
+                backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("dialogNumPadBackGround.bmp", Resources.ResourceType.Image);
 
             InitializeComponent();
             Size = new Size(233, 373); 

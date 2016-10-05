@@ -34,13 +34,13 @@ namespace Cntrls.Boxes
         public frmMessageBox()
         {
             if (messageBackGroundBitmap == null)
-                messageBackGroundBitmap = (Bitmap)Resources.Resources.GetResource("dialogMessageBackGround.bmp", Resources.ResourceType.Image);
+                messageBackGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("dialogMessageBackGround.bmp", Resources.ResourceType.Image);
 
             if (warningBackGroundBitmap == null)
-                warningBackGroundBitmap = (Bitmap)Resources.Resources.GetResource("dialogWarningBackGround.bmp", Resources.ResourceType.Image);
+                warningBackGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("dialogWarningBackGround.bmp", Resources.ResourceType.Image);
 
             if (errorBackGroundBitmap == null)
-                errorBackGroundBitmap = (Bitmap)Resources.Resources.GetResource("dialogErrorBackGround.bmp", Resources.ResourceType.Image);
+                errorBackGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("dialogErrorBackGround.bmp", Resources.ResourceType.Image);
 
             InitializeComponent();
 

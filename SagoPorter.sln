@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogManagement", "LogManagem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocationManagement", "LocationManagement\LocationManagement.csproj", "{73A5F6E9-8D91-4B55-90A9-6C9FC9F97766}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteManagement", "RemoteManagement\RemoteManagement.csproj", "{B5CBE49B-8109-4A70-98F7-13AE85A51B29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{73A5F6E9-8D91-4B55-90A9-6C9FC9F97766}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73A5F6E9-8D91-4B55-90A9-6C9FC9F97766}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73A5F6E9-8D91-4B55-90A9-6C9FC9F97766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5CBE49B-8109-4A70-98F7-13AE85A51B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5CBE49B-8109-4A70-98F7-13AE85A51B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5CBE49B-8109-4A70-98F7-13AE85A51B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5CBE49B-8109-4A70-98F7-13AE85A51B29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -26,8 +26,8 @@ namespace Cntrls.BaseCntrls
         {
             InitializeComponent();
 
-            backGround = (Bitmap)Resources.Resources.GetResource("backGround352x100.bmp", ResourceType.Image); 
-            separatorLine = (Bitmap)Resources.Resources.GetResource("line336x3.bmp", ResourceType.Image);
+            backGround = (Bitmap)Resources.ResourcesManager.GetResource("backGround352x100.bmp", ResourceType.Image); 
+            separatorLine = (Bitmap)Resources.ResourcesManager.GetResource("line336x3.bmp", ResourceType.Image);
         }
 
         protected override void OnPaint(PaintEventArgs e)

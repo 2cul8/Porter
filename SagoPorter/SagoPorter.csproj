@@ -199,6 +199,10 @@
       <Project>{85B87C1F-58EA-4FA5-BAB0-76F19A4A4B2A}</Project>
       <Name>PorterProto</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RemoteManagement\RemoteManagement.csproj">
+      <Project>{B5CBE49B-8109-4A70-98F7-13AE85A51B29}</Project>
+      <Name>RemoteManagement</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Resources\Resources.csproj">
       <Project>{29DF9262-9BA2-49B8-A30B-AAECCD0D13F6}</Project>
       <Name>Resources</Name>

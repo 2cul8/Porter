@@ -149,29 +149,29 @@ namespace Cntrls
             {
                 allBatteryBmp = new Bitmap[22];
 
-                allBatteryBmp[BATTERY_FULL_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_full.png", ResourceType.Image);
-                allBatteryBmp[BATTERY_EMPTY_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_empty.png", ResourceType.Image);
-                allBatteryBmp[BATTERY_EMPTY_BLINKED_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_empty_blinked.png", ResourceType.Image);
-                allBatteryBmp[BATTERY_CHARGING_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_charging.png", ResourceType.Image);
-                allBatteryBmp[BATTERY_80_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_80.png", ResourceType.Image);
-                allBatteryBmp[BATTERY_60_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_60.png", ResourceType.Image);
-                allBatteryBmp[BATTERY_40_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_40.png", ResourceType.Image);
-                allBatteryBmp[BATTERY_20_BMP_INDEX] = (Bitmap)Resources.Resources.GetResource("battery_20.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_FULL_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_full.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_EMPTY_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_empty.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_EMPTY_BLINKED_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_empty_blinked.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_CHARGING_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_charging.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_80_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_80.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_60_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_60.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_40_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_40.png", ResourceType.Image);
+                allBatteryBmp[BATTERY_20_BMP_INDEX] = (Bitmap)Resources.ResourcesManager.GetResource("battery_20.png", ResourceType.Image);
 
-                allBatteryBmp[LINE_SEPARATOR_EXTENDED] = (Bitmap)Resources.Resources.GetResource("line336x3.bmp", ResourceType.Image);
-                allBatteryBmp[LINE_SEPARATOR_EXTENDED_RED] = (Bitmap)Resources.Resources.GetResource("line336x3_red.bmp", ResourceType.Image);
-                allBatteryBmp[BATTERY_STATUS_EXTENDED_OK] = (Bitmap)Resources.Resources.GetResource("batteryStatusExtended.bmp", ResourceType.Image);
-                allBatteryBmp[BATTERY_STATUS_EXTENDED_EMPTY] = (Bitmap)Resources.Resources.GetResource("batteryStatusExtended_empty.bmp", ResourceType.Image);
-                allBatteryBmp[BATTERY_STATUS_OK] = (Bitmap)Resources.Resources.GetResource("batteryStatusOk.bmp", ResourceType.Image);
-                allBatteryBmp[BATTERY_STATUS_EMPTY] = (Bitmap)Resources.Resources.GetResource("batteryStatusEmpty.bmp", ResourceType.Image);
-                allBatteryBmp[LINE_SEPARATOR] = (Bitmap)Resources.Resources.GetResource("line80x1.bmp", ResourceType.Image);
-                allBatteryBmp[LINE_SEPARATOR_RED] = (Bitmap)Resources.Resources.GetResource("line80x1_red.bmp", ResourceType.Image);
-                allBatteryBmp[PERCENTAGE_ICON] = (Bitmap)Resources.Resources.GetResource("percentage.bmp", ResourceType.Image);
-                allBatteryBmp[VOLTAGE_ICON] = (Bitmap)Resources.Resources.GetResource("voltage.bmp", ResourceType.Image);
-                allBatteryBmp[HOURGLASS_ICON] = (Bitmap)Resources.Resources.GetResource("hourglass.bmp", ResourceType.Image);
-                allBatteryBmp[PERCENTAGE_RED_ICON] = (Bitmap)Resources.Resources.GetResource("percentage_red.bmp", ResourceType.Image);
-                allBatteryBmp[VOLTAGE_RED_ICON] = (Bitmap)Resources.Resources.GetResource("voltage_red.bmp", ResourceType.Image);
-                allBatteryBmp[HOURGLASS_RED_ICON] = (Bitmap)Resources.Resources.GetResource("hourglass_red.bmp", ResourceType.Image);
+                allBatteryBmp[LINE_SEPARATOR_EXTENDED] = (Bitmap)Resources.ResourcesManager.GetResource("line336x3.bmp", ResourceType.Image);
+                allBatteryBmp[LINE_SEPARATOR_EXTENDED_RED] = (Bitmap)Resources.ResourcesManager.GetResource("line336x3_red.bmp", ResourceType.Image);
+                allBatteryBmp[BATTERY_STATUS_EXTENDED_OK] = (Bitmap)Resources.ResourcesManager.GetResource("batteryStatusExtended.bmp", ResourceType.Image);
+                allBatteryBmp[BATTERY_STATUS_EXTENDED_EMPTY] = (Bitmap)Resources.ResourcesManager.GetResource("batteryStatusExtended_empty.bmp", ResourceType.Image);
+                allBatteryBmp[BATTERY_STATUS_OK] = (Bitmap)Resources.ResourcesManager.GetResource("batteryStatusOk.bmp", ResourceType.Image);
+                allBatteryBmp[BATTERY_STATUS_EMPTY] = (Bitmap)Resources.ResourcesManager.GetResource("batteryStatusEmpty.bmp", ResourceType.Image);
+                allBatteryBmp[LINE_SEPARATOR] = (Bitmap)Resources.ResourcesManager.GetResource("line80x1.bmp", ResourceType.Image);
+                allBatteryBmp[LINE_SEPARATOR_RED] = (Bitmap)Resources.ResourcesManager.GetResource("line80x1_red.bmp", ResourceType.Image);
+                allBatteryBmp[PERCENTAGE_ICON] = (Bitmap)Resources.ResourcesManager.GetResource("percentage.bmp", ResourceType.Image);
+                allBatteryBmp[VOLTAGE_ICON] = (Bitmap)Resources.ResourcesManager.GetResource("voltage.bmp", ResourceType.Image);
+                allBatteryBmp[HOURGLASS_ICON] = (Bitmap)Resources.ResourcesManager.GetResource("hourglass.bmp", ResourceType.Image);
+                allBatteryBmp[PERCENTAGE_RED_ICON] = (Bitmap)Resources.ResourcesManager.GetResource("percentage_red.bmp", ResourceType.Image);
+                allBatteryBmp[VOLTAGE_RED_ICON] = (Bitmap)Resources.ResourcesManager.GetResource("voltage_red.bmp", ResourceType.Image);
+                allBatteryBmp[HOURGLASS_RED_ICON] = (Bitmap)Resources.ResourcesManager.GetResource("hourglass_red.bmp", ResourceType.Image);
             }
 
             batteryStatus = BATTERY_FULL_BMP_INDEX; 

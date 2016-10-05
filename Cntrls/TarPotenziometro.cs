@@ -153,15 +153,15 @@ namespace Cntrls
             Labels = "Label 1;Label 2;Label 3;Label 4";
              
             buttonSetBitmap = new Bitmap[2];
-            buttonSetBitmap[0] = (Bitmap)Resources.Resources.GetResource("buttton88x44.bmp", ResourceType.Image);
-            buttonSetBitmap[1] = (Bitmap)Resources.Resources.GetResource("buttton88x44_pressed.bmp", ResourceType.Image); 
+            buttonSetBitmap[0] = (Bitmap)Resources.ResourcesManager.GetResource("buttton88x44.bmp", ResourceType.Image);
+            buttonSetBitmap[1] = (Bitmap)Resources.ResourcesManager.GetResource("buttton88x44_pressed.bmp", ResourceType.Image); 
 
             separatorLineBitmap = new Bitmap[2];
-            separatorLineBitmap[0] = (Bitmap)Resources.Resources.GetResource("line492x1.bmp", ResourceType.Image);
-            separatorLineBitmap[1] = (Bitmap)Resources.Resources.GetResource("line1x168.bmp", ResourceType.Image); 
+            separatorLineBitmap[0] = (Bitmap)Resources.ResourcesManager.GetResource("line492x1.bmp", ResourceType.Image);
+            separatorLineBitmap[1] = (Bitmap)Resources.ResourcesManager.GetResource("line1x168.bmp", ResourceType.Image); 
 
             if (selectedItemBackGroungBitmap == null) 
-                selectedItemBackGroungBitmap = (Bitmap)Resources.Resources.GetResource("selected_item.bmp", ResourceType.Image); 
+                selectedItemBackGroungBitmap = (Bitmap)Resources.ResourcesManager.GetResource("selected_item.bmp", ResourceType.Image); 
 
             refreshLayout();
         }

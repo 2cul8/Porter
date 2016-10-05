@@ -24,7 +24,7 @@ namespace SagoPorter
         public FrmLocation()
         {
             InitializeComponent();
-            backGroundBitmap = (Bitmap)Resources.Resources.GetResource("background667x400.bmp", Resources.ResourceType.Image); 
+            backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("background667x400.bmp", Resources.ResourceType.Image); 
         }
 
         public new DialogResult ShowDialog()

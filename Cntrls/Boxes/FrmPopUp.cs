@@ -36,7 +36,7 @@ namespace Cntrls.Boxes
 
         public FrmPopUp()
         {
-            backGroundBitmap = (Bitmap)Resources.Resources.GetResource("dialogWarningBackGround.bmp", Resources.ResourceType.Image);
+            backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("dialogWarningBackGround.bmp", Resources.ResourceType.Image);
 
             InitializeComponent();
             Size = new Size(460, 240);

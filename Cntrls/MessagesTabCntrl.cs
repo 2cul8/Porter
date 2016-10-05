@@ -41,10 +41,10 @@ namespace Cntrls
             flagStatus = new bool[ITEM_PER_LINE * LINE_COUNT];
 
             selectedItem = Point.Empty;
-            selectedActiveItemBitmap = (Bitmap)Resources.Resources.GetResource("messageFlagOn_selected.bmp", Resources.ResourceType.Image);
-            activeItemBitmap = (Bitmap)Resources.Resources.GetResource("messageFlagOn.bmp", Resources.ResourceType.Image);
-            selectedItemBitmap = (Bitmap)Resources.Resources.GetResource("messageFlagOff_selected.bmp", Resources.ResourceType.Image);
-            itemBitmap = (Bitmap)Resources.Resources.GetResource("messageFlagOff.bmp", Resources.ResourceType.Image);
+            selectedActiveItemBitmap = (Bitmap)Resources.ResourcesManager.GetResource("messageFlagOn_selected.bmp", Resources.ResourceType.Image);
+            activeItemBitmap = (Bitmap)Resources.ResourcesManager.GetResource("messageFlagOn.bmp", Resources.ResourceType.Image);
+            selectedItemBitmap = (Bitmap)Resources.ResourcesManager.GetResource("messageFlagOff_selected.bmp", Resources.ResourceType.Image);
+            itemBitmap = (Bitmap)Resources.ResourcesManager.GetResource("messageFlagOff.bmp", Resources.ResourceType.Image);
         }
 
         public void SetFlagsStatus(bool[] flags)

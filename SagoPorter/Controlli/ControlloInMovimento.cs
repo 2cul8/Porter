@@ -19,7 +19,7 @@ namespace SagoPorter.Controlli
         public ControlloInMovimento()
         {
             InitializeComponent(); 
-            backGroundBitmap = (Bitmap)Resources.Resources.GetResource("movingStatusBackGround.bmp", Resources.ResourceType.Image);
+            backGroundBitmap = (Bitmap)Resources.ResourcesManager.GetResource("movingStatusBackGround.bmp", Resources.ResourceType.Image);
 
             lblSterzoTitle.TextLabel = "Sterzo:";
             lblVelocit‡Title.TextLabel = "Velocit‡:";
